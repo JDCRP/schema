@@ -31,7 +31,12 @@
       "@id": "crm:E53_Place"
     },
     "Set": {
-      "@id": "la:Set"
+      "@id": "la:Set",
+      "@context": {
+        "consists_of": {
+          "@id": "crm:P9_consists_of"
+        }    
+      }
     },
     "Creation": {
       "@id": "crm:E65_Creation"
@@ -95,9 +100,6 @@
     },
     "city": {
       "@id": "jdcrp:city"
-    },
-    "consists_of": {
-      "@id": "crm:P9_consists_of"
     },
     "has_type": {
       "@id": "crm:P2_has_type"
