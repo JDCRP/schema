@@ -1,0 +1,67 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "crm": "http://www.cidoc-crm.org/cidoc-crm/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sdo": "https://schema.org/",
+    "la": "https://linked.art/ns/terms/",
+    "jdcrp": "https://schema.jdcrp.org/",
+    "id": "@id",
+    "type": "@type",
+    "Human-Made_Object": {
+      "@id": "crm:E22_Human-Made_Object"
+    },
+    "Person": {
+      "@id": "crm:E21_Person"
+    },
+    "Activity": {
+      "@id": "crm:E7_Activity"
+    },
+    "Move": {
+      "@id": "crm:E9_Move"
+    },
+    "Visual_Item": {
+      "@id": "crm:E36_Visual_Item"
+    },
+    "Production": {
+      "@id": "crm:E12_Production"
+    },
+    "Place": {
+      "@id": "crm:E53_Place"
+    },
+    "Set": {
+      "@id": "la:Set"
+    },
+    "Creation": {
+      "@id": "crm:E65_Creation"
+    },
+    "Type": {
+      "@id": "crm:E55_Type"
+    },
+    "name": {
+      "@id": "jdcrp:name"
+    },
+    "description": {
+      "@id": "jdcrp:description"
+    },
+    "deathDate": {
+      "@id": "jdcrp:deathDate"
+    },
+    "birthDate": {
+      "@id": "jdcrp:birthDate"
+    },
+    "archivalSource": {
+      "@id": "jdcrp:archivalSource"
+    },
+    "country": {
+      "@id": "jdcrp:country"
+    },
+    "city": {
+      "@id": "jdcrp:city"
+    },
+    "label": {
+      "@id": "rdfs:label"
+    }
+  }
+}

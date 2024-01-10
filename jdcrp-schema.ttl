@@ -1,0 +1,50 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix sdo: <https://schema.org/> .
+@prefix jdcrp: <https://schema.jdcrp.org/> .
+
+# Schema.org extensions
+
+jdcrp:name a rdf:Property ;
+        rdfs:subPropertyOf sdo:name ;
+        sdo:domainIncludes crm:E21_Person .
+
+jdcrp:description a rdf:Property ;
+        rdfs:subPropertyOf sdo:description ;
+        sdo:domainIncludes crm:E21_Person .
+
+jdcrp:deathDate a rdf:Property ;
+        rdfs:subPropertyOf sdo:deathDate ;
+        sdo:domainIncludes crm:E21_Person .
+
+jdcrp:birthDate a rdf:Property ;
+        rdfs:subPropertyOf sdo:birthDate ;
+        sdo:domainIncludes crm:E21_Person .
+
+# JDCRP-specific definitions
+
+jdcrp:archivalSource a rdf:Property ;
+        rdfs:label "Archival source"@en ;
+        rdfs:comment "Denotes in which archive (and possibly where in the archive) more details can be found"@en ;
+        sdo:domainIncludes crm:E21_Person ;
+        schema:rangeIncludes sdo:Text .
+
+jdcrp:country a rdf:Property ;
+        rdfs:label "Country"@en ;
+        rdfs:comment "The country associated with an entity"@en ;
+        sdo:domainIncludes crm:E21_Person ;
+        schema:rangeIncludes sdo:Text .
+
+jdcrp:city a rdf:Property ;
+        rdfs:label "City"@en ;
+        rdfs:comment "The city associated with an entity"@en ;
+        sdo:domainIncludes crm:E21_Person ;
+        schema:rangeIncludes sdo:Text .
+
+jdcrp:confiscatedFrom a rdf:Property ;
+        rdfs:label "Confiscated from"@en ;
+        rdfs:comment "The person from who this objects was confiscated"@en ;
+        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:rangeIncludes crm:E21_Person ;
+        schema:rangeIncludes sdo:Text .
