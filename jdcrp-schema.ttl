@@ -125,3 +125,15 @@ jdcrp:collectionCode a rdf:Property ;
         rdfs:comment "The (unique) code given to the collection"@en ;
         sdo:domainIncludes la:Set ;
         sdo:rangeIncludes sdo:Text .
+
+jdcrp:date a rdf:Property ;
+        rdfs:label "Date"@en ;
+        rdfs:comment "The date something took place"@en ;
+        sdo:domainIncludes crm:E9_Move ;
+        sdo:rangeIncludes sdo:Text .
+
+jdcrp:condition a rdf:Property ;
+        rdfs:label "Condition"@en ;
+        rdfs:comment "Assessment of the condition of an object at a moment in time"@en ;
+        sdo:domainIncludes crm:E9_Move ;
+        sdo:rangeIncludes sdo:Text .
