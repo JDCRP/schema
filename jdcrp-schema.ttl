@@ -2,6 +2,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix sdo: <https://schema.org/> .
+@prefix la: <https://linked.art/ns/terms/> .
 @prefix jdcrp: <https://schema.jdcrp.org/> .
 
 # Schema.org extensions
