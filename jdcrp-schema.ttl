@@ -28,23 +28,23 @@ jdcrp:archivalSource a rdf:Property ;
         rdfs:label "Archival source"@en ;
         rdfs:comment "Denotes in which archive (and possibly where in the archive) more details can be found"@en ;
         sdo:domainIncludes crm:E21_Person ;
-        schema:rangeIncludes sdo:Text .
+        sdo:rangeIncludes sdo:Text .
 
 jdcrp:country a rdf:Property ;
         rdfs:label "Country"@en ;
         rdfs:comment "The country associated with an entity"@en ;
         sdo:domainIncludes crm:E21_Person ;
-        schema:rangeIncludes sdo:Text .
+        sdo:rangeIncludes sdo:Text .
 
 jdcrp:city a rdf:Property ;
         rdfs:label "City"@en ;
         rdfs:comment "The city associated with an entity"@en ;
         sdo:domainIncludes crm:E21_Person ;
-        schema:rangeIncludes sdo:Text .
+        sdo:rangeIncludes sdo:Text .
 
 jdcrp:confiscatedFrom a rdf:Property ;
         rdfs:label "Confiscated from"@en ;
         rdfs:comment "The person from who this objects was confiscated"@en ;
         sdo:domainIncludes crm:E22_Human-Made_Object ;
         sdo:rangeIncludes crm:E21_Person ;
-        schema:rangeIncludes sdo:Text .
+        sdo:rangeIncludes sdo:Text .
