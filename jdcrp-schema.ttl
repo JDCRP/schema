@@ -10,9 +10,14 @@ jdcrp:name a rdf:Property ;
         rdfs:subPropertyOf sdo:name ;
         sdo:domainIncludes crm:E21_Person .
 
+jdcrp:title a rdf:Property ;
+        rdfs:comment "The title of the entity"@en ;
+        rdfs:subPropertyOf sdo:title ;
+        sdo:domainIncludes crm:E22_Human-Made_Object .
+
 jdcrp:description a rdf:Property ;
         rdfs:subPropertyOf sdo:description ;
-        sdo:domainIncludes crm:E21_Person .
+        sdo:domainIncludes crm:E21_Person, crm:E22_Human-Made_Object, la:Set .
 
 jdcrp:deathDate a rdf:Property ;
         rdfs:subPropertyOf sdo:deathDate ;
@@ -22,12 +27,26 @@ jdcrp:birthDate a rdf:Property ;
         rdfs:subPropertyOf sdo:birthDate ;
         sdo:domainIncludes crm:E21_Person .
 
+jdcrp:height a rdf:Property ;
+        rdfs:subPropertyOf sdo:height ;
+        sdo:domainIncludes crm:E22_Human-Made_Object .
+
+jdcrp:width a rdf:Property ;
+        rdfs:subPropertyOf sdo:width ;
+        sdo:domainIncludes crm:E22_Human-Made_Object .
+
 # JDCRP-specific definitions
 
 jdcrp:archivalSource a rdf:Property ;
         rdfs:label "Archival source"@en ;
         rdfs:comment "Denotes in which archive (and possibly where in the archive) more details can be found"@en ;
-        sdo:domainIncludes crm:E21_Person ;
+        sdo:domainIncludes crm:E21_Person, crm:E22_Human-Made_Object ;
+        sdo:rangeIncludes sdo:Text .
+
+jdcrp:archival a rdf:Property ;
+        rdfs:label "Archive"@en ;
+        rdfs:comment "The name of the archive this entity is part of"@en ;
+        sdo:domainIncludes crm:E22_Human-Made_Object ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:country a rdf:Property ;
@@ -42,9 +61,66 @@ jdcrp:city a rdf:Property ;
         sdo:domainIncludes crm:E21_Person ;
         sdo:rangeIncludes sdo:Text .
 
+jdcrp:image a rdf:Property ;
+        rdfs:subPropertyOf sdo:image ;
+        sdo:domainIncludes crm:E36_Visual_Item .
+
 jdcrp:confiscatedFrom a rdf:Property ;
         rdfs:label "Confiscated from"@en ;
         rdfs:comment "The person from who this objects was confiscated"@en ;
         sdo:domainIncludes crm:E22_Human-Made_Object ;
-        sdo:rangeIncludes crm:E21_Person ;
+        sdo:rangeIncludes crm:E21_Person .
+
+jdcrp:objectType a rdf:Property ;
+        rdfs:label "Object type"@en ;
+        rdfs:comment "The type of object (e.g. Painting or Decorative Arts)"@en ;
+        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:rangeIncludes sdo:Text .
+
+jdcrp:inventoryNumber a rdf:Property ;
+        rdfs:label "Inventory number"@en ;
+        rdfs:comment "The number in the inventory this object is part of"@en ;
+        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:rangeIncludes sdo:Text .
+
+jdcrp:munichIdentifier a rdf:Property ;
+        rdfs:label "Munich CCP identifier"@en ;
+        rdfs:comment "The identifier assigned at the Munich Central Collecting Point"@en ;
+        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:rangeIncludes sdo:Text .
+
+jdcrp:linzIdentifier a rdf:Property ;
+        rdfs:label "Linz identifier"@en ;
+        rdfs:comment "The identifier assigned at Linz"@en ;
+        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:rangeIncludes sdo:Text .
+
+jdcrp:ausseeIdentifier a rdf:Property ;
+        rdfs:label "Aussee identifier"@en ;
+        rdfs:comment "The identifier assigned at Aussee"@en ;
+        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:rangeIncludes sdo:Text .
+
+jdcrp:wiesbadenIdentifier a rdf:Property ;
+        rdfs:label "Wiesbaden CCP identifier"@en ;
+        rdfs:comment "The identifier assigned at the Wiesbaden Central Collecting Point"@en ;
+        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:rangeIncludes sdo:Text .
+
+jdcrp:framed a rdf:Property ;
+        rdfs:label "Framed"@en ;
+        rdfs:comment "Whether the painting is framed"@en ;
+        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:rangeIncludes sdo:Text .
+
+jdcrp:bibliography a rdf:Property ;
+        rdfs:label "Bibliography"@en ;
+        rdfs:comment "A bibliography for reference"@en ;
+        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:rangeIncludes sdo:Text .
+
+jdcrp:collectionCode a rdf:Property ;
+        rdfs:label "Collection code"@en ;
+        rdfs:comment "The (unique) code given to the collection"@en ;
+        sdo:domainIncludes la:Set ;
         sdo:rangeIncludes sdo:Text .
