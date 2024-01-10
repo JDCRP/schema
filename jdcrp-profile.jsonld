@@ -10,27 +10,151 @@
     "id": "@id",
     "type": "@type",
     "Human-Made_Object": {
-      "@id": "crm:E22_Human-Made_Object"
+      "@id": "crm:E22_Human-Made_Object",
+      "@context": {
+        "objectType": {
+          "@id": "jdcrp:objectType"
+        },
+        "title": {
+          "@id": "jdcrp:title"
+        },
+        "movements": {
+          "@id": "jdcrp:movements"
+        },
+        "material": {
+          "@id": "jdcrp:material"
+        },
+        "presumedOwner": {
+          "@id": "jdcrp:presumedOwner"
+        },
+        "description": {
+          "@id": "jdcrp:description"
+        },
+        "copiesOfCard": {
+          "@id": "jdcrp:copiesOfCard"
+        },
+        "bibliography": {
+          "@id": "jdcrp:bibliography"
+        },
+        "location": {
+          "@id": "jdcrp:location"
+        },
+        "inventoryNumber": {
+          "@id": "jdcrp:inventoryNumber"
+        },
+        "negativeNumber": {
+          "@id": "jdcrp:negativeNumber"
+        },
+        "otherPhotos": {
+          "@id": "jdcrp:otherPhotos"
+        },
+        "depotNumber": {
+          "@id": "jdcrp:depotNumber"
+        },
+        "archivalSource": {
+          "@id": "jdcrp:archivalSource"
+        },
+        "archive": {
+          "@id": "jdcrp:archive"
+        },
+        "height": {
+          "@id": "jdcrp:height"
+        },
+        "width": {
+          "@id": "jdcrp:width"
+        },
+        "munichIdentifier": {
+          "@id": "jdcrp:munichIdentifier"
+        },
+        "ausseeIdentifier": {
+          "@id": "jdcrp:ausseeIdentifier"
+        },
+        "linzIdentifier": {
+          "@id": "jdcrp:linzIdentifier"
+        },
+        "wiesbadenIdentifier": {
+          "@id": "jdcrp:wiesbadenIdentifier"
+        },
+        "was_produced_by": {
+          "@id": "crm:P108i_was_produced_by"
+        },
+        "confiscatedFrom": {
+          "@id": "jdcrp:confiscatedFrom"
+        },
+        "has_representation": {
+          "@id": "crm:P138i_has_representation"
+        },
+        "has_type": {
+          "@id": "crm:P2_has_type"
+        }
+      }
     },
     "Person": {
-      "@id": "crm:E21_Person"
+      "@id": "crm:E21_Person",
+      "@context": {
+        "deathDate": {
+          "@id": "jdcrp:deathDate"
+        },
+        "birthDate": {
+          "@id": "jdcrp:birthDate"
+        },
+        "country": {
+          "@id": "jdcrp:country"
+        },
+        "city": {
+          "@id": "jdcrp:city"
+        },
+        "name": {
+          "@id": "jdcrp:name"
+        },
+        "description": {
+          "@id": "jdcrp:description"
+        }
+      }
     },
     "Activity": {
       "@id": "crm:E7_Activity",
       "@context": {
         "consists_of": {
           "@id": "crm:P9_consists_of"
-        }    
+        },
+        "has_type": {
+          "@id": "crm:P2_has_type"
+        }
       }
     },
     "Move": {
-      "@id": "crm:E9_Move"
+      "@id": "crm:E9_Move",
+      "@context": {
+        "date": {
+          "@id": "jdcrp:date"
+        },
+        "condition": {
+          "@id": "jdcrp:condition"
+        },
+        "moved": {
+          "@id": "crm:P25_moved"
+        },
+        "moved_to": {
+          "@id": "crm:P26_moved_to"
+        }
+      }
     },
     "Visual_Item": {
-      "@id": "crm:E36_Visual_Item"
+      "@id": "crm:E36_Visual_Item",
+      "@context": {
+        "image": {
+          "@id": "jdcrp:image"
+        }
+      }
     },
     "Production": {
-      "@id": "crm:E12_Production"
+      "@id": "crm:E12_Production",
+      "@context": {
+        "carried_out_by": {
+          "@id": "crm:P14_carried_out_by"
+        }
+      }
     },
     "Place": {
       "@id": "crm:E53_Place"
@@ -38,97 +162,33 @@
     "Set": {
       "@id": "la:Set",
       "@context": {
+        "description": {
+          "@id": "jdcrp:description"
+        },
         "has_member": {
           "@id": "la:has_member"
-        }    
+        },
+        "collectionCode": {
+          "@id": "jdcrp:collectionCode"
+        },
+        "was_created_by": {
+          "@id": "crm:P94i_was_created_by"
+        },
+        "has_type": {
+          "@id": "crm:P2_has_type"
+        }
       }
     },
     "Creation": {
-      "@id": "crm:E65_Creation"
+      "@id": "crm:E65_Creation",
+      "@context": {
+        "carried_out_by": {
+          "@id": "crm:P14_carried_out_by"
+        }
+      }
     },
     "Type": {
       "@id": "crm:E55_Type"
-    },
-    "name": {
-      "@id": "jdcrp:name"
-    },
-    "description": {
-      "@id": "jdcrp:description"
-    },
-    "deathDate": {
-      "@id": "jdcrp:deathDate"
-    },
-    "birthDate": {
-      "@id": "jdcrp:birthDate"
-    },
-    "date": {
-      "@id": "jdcrp:date"
-    },
-    "image": {
-      "@id": "jdcrp:image"
-    },
-    "archivalSource": {
-      "@id": "jdcrp:archivalSource"
-    },
-    "archival": {
-      "@id": "jdcrp:archival"
-    },
-    "objectType": {
-      "@id": "jdcrp:objectType"
-    },
-    "inventoryNumber": {
-      "@id": "jdcrp:inventoryNumber"
-    },
-    "wiesbadenIdentifier": {
-      "@id": "jdcrp:wiesbadenIdentifier"
-    },
-    "linzIdentifier": {
-      "@id": "jdcrp:linzIdentifier"
-    },
-    "munichIdentifier": {
-      "@id": "jdcrp:munichIdentifier"
-    },
-    "ausseeIdentifier": {
-      "@id": "jdcrp:ausseeIdentifier"
-    },
-    "confiscatedFrom": {
-      "@id": "jdcrp:confiscatedFrom"
-    },
-    "collectionCode": {
-      "@id": "jdcrp:collectionCode"
-    },
-    "height": {
-      "@id": "jdcrp:height"
-    },
-    "width": {
-      "@id": "jdcrp:width"
-    },
-    "country": {
-      "@id": "jdcrp:country"
-    },
-    "city": {
-      "@id": "jdcrp:city"
-    },
-    "has_type": {
-      "@id": "crm:P2_has_type"
-    },
-    "moved": {
-      "@id": "crm:P25_moved"
-    },
-    "moved_to": {
-      "@id": "crm:P26_moved_to"
-    },
-    "has_representation": {
-      "@id": "crm:P138i_has_representation"
-    },
-    "was_produced_by": {
-      "@id": "crm:P108i_was_produced_by"
-    },
-    "carried_out_by": {
-      "@id": "crm:P14_carried_out_by"
-    },
-    "was_created_by": {
-      "@id": "crm:P94i_was_created_by"
     },
     "label": {
       "@id": "rdfs:label"
