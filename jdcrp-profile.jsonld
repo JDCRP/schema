@@ -16,7 +16,12 @@
       "@id": "crm:E21_Person"
     },
     "Activity": {
-      "@id": "crm:E7_Activity"
+      "@id": "crm:E7_Activity",
+      "@context": {
+        "consists_of": {
+          "@id": "crm:P9_consists_of"
+        }    
+      }
     },
     "Move": {
       "@id": "crm:E9_Move"
@@ -33,8 +38,8 @@
     "Set": {
       "@id": "la:Set",
       "@context": {
-        "consists_of": {
-          "@id": "crm:P9_consists_of"
+        "has_member": {
+          "@id": "la:has_member"
         }    
       }
     },
@@ -124,9 +129,6 @@
     },
     "was_created_by": {
       "@id": "crm:P94i_was_created_by"
-    },
-    "has_member": {
-      "@id": "la:has_member"
     },
     "label": {
       "@id": "rdfs:label"
