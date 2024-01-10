@@ -31,7 +31,12 @@
       "@id": "crm:E53_Place"
     },
     "Set": {
-      "@id": "la:Set"
+      "@id": "la:Set",
+      "@context": {
+        "consists_of": {
+          "@id": "crm:P9_consists_of"
+        }    
+      }
     },
     "Creation": {
       "@id": "crm:E65_Creation"
@@ -122,9 +127,6 @@
     },
     "has_member": {
       "@id": "la:has_member"
-    },
-    "consists_of": {
-      "@id": "crm:P9_consists_of"
     },
     "label": {
       "@id": "rdfs:label"
