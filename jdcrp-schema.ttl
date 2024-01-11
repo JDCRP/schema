@@ -47,13 +47,15 @@ jdcrp:height a rdf:Property ;
         rdfs:label "Height"@en ;
         rdfs:comment "The height of the entity"@en ;
         rdfs:subPropertyOf sdo:height ;
-        sdo:domainIncludes crm:E22_Human-Made_Object .
+        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:rangeIncludes sdo:Text .
 
 jdcrp:width a rdf:Property ;
         rdfs:label "Width"@en ;
         rdfs:comment "The width of the entity"@en ;
         rdfs:subPropertyOf sdo:width ;
-        sdo:domainIncludes crm:E22_Human-Made_Object .
+        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:rangeIncludes sdo:Text .
 
 # JDCRP-specific definitions
 
@@ -63,9 +65,9 @@ jdcrp:archivalSource a rdf:Property ;
         sdo:domainIncludes crm:E21_Person, crm:E22_Human-Made_Object ;
         sdo:rangeIncludes sdo:Text .
 
-jdcrp:archival a rdf:Property ;
+jdcrp:archive a rdf:Property ;
         rdfs:label "Archive"@en ;
-        rdfs:comment "The name of the archive this entity is part of"@en ;
+        rdfs:comment "The name of the archive the information about this entity comes from"@en ;
         sdo:domainIncludes crm:E22_Human-Made_Object ;
         sdo:rangeIncludes sdo:Text .
 
