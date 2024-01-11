@@ -54,8 +54,8 @@
         "archivalSource": {
           "@id": "jdcrp:archivalSource"
         },
-        "archive": {
-          "@id": "jdcrp:archive"
+        "source": {
+          "@id": "jdcrp:source"
         },
         "height": {
           "@id": "jdcrp:height"
@@ -92,11 +92,32 @@
     "Person": {
       "@id": "crm:E21_Person",
       "@context": {
+        "name": {
+          "@id": "jdcrp:name"
+        },
+        "givenName": {
+          "@id": "jdcrp:givenName"
+        },
+        "familyName": {
+          "@id": "jdcrp:familyName"
+        },
+        "additionalName": {
+          "@id": "jdcrp:additionalName"
+        },
+        "gender": {
+          "@id": "jdcrp:gender"
+        },
         "deathDate": {
           "@id": "jdcrp:deathDate"
         },
+        "deathPlace": {
+          "@id": "jdcrp:deathPlace"
+        },
         "birthDate": {
           "@id": "jdcrp:birthDate"
+        },
+        "birthPlace": {
+          "@id": "jdcrp:birthPlace"
         },
         "country": {
           "@id": "jdcrp:country"
@@ -104,11 +125,20 @@
         "city": {
           "@id": "jdcrp:city"
         },
-        "name": {
-          "@id": "jdcrp:name"
+        "biographyReference": {
+          "@id": "biographyReference"
+        },
+        "artworksReference": {
+          "@id": "artworksReference"
         },
         "description": {
           "@id": "jdcrp:description"
+        },
+        "discipline": {
+          "@id": "jdcrp:discipline"
+        },
+        "source": {
+          "@id": "jdcrp:source"
         }
       }
     },
@@ -189,6 +219,14 @@
     },
     "Type": {
       "@id": "crm:E55_Type"
+    },
+    "Discipline": {
+      "@id": "jdcrp:Discipline",
+      "@context": {
+        "name": {
+          "@id": "jdcrp:name"
+        }
+      }
     },
     "label": {
       "@id": "rdfs:label"
