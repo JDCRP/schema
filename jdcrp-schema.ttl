@@ -52,7 +52,7 @@ jdcrp:gender a rdf:Property ;
         rdfs:comment "The gender of a person"@en ;
         rdfs:subPropertyOf sdo:gender ;
         sdo:domainIncludes crm:E21_Person ;
-        sdo:rangeIncludes sdo:Gender .
+        sdo:rangeIncludes sdo:GenderType .
 
 jdcrp:title a rdf:Property ;
         rdfs:label "Title"@en ;

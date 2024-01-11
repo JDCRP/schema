@@ -126,10 +126,10 @@
           "@id": "jdcrp:city"
         },
         "biographyReference": {
-          "@id": "biographyReference"
+          "@id": "jdcrp:biographyReference"
         },
         "artworksReference": {
-          "@id": "artworksReference"
+          "@id": "jdcrp:artworksReference"
         },
         "description": {
           "@id": "jdcrp:description"
