@@ -128,7 +128,12 @@ jdcrp:source a rdf:Property ;
         rdfs:label "Source"@en ;
         rdfs:comment "The data source the information about this entity comes from"@en ;
         sdo:domainIncludes crm:E22_Human-Made_Object, crm:E21_Person ;
-        sdo:rangeIncludes sdo:Text .
+        sdo:rangeIncludes jdcrp:Dataset .
+
+jdcrp:Dataset a rdf:Property ;
+        rdfs:label "Data Source"@en ;
+        rdfs:comment "A source of data connected to the JDCRP Data Platform"@en ;
+        rdfs:subClassOf sdo:Dataset .
 
 jdcrp:country a rdf:Property ;
         rdfs:label "Country"@en ;
