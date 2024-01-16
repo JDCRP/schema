@@ -11,7 +11,7 @@ jdcrp:name a rdf:Property ;
         rdfs:label "Name"@en ;
         rdfs:comment "The name of the entity"@en ;
         rdfs:subPropertyOf sdo:name ;
-        sdo:domainIncludes crm:E21_Person ;
+        sdo:domainIncludes crm:E21_Person, jdcrp:Dataset ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:givenName a rdf:Property ;
@@ -65,7 +65,7 @@ jdcrp:description a rdf:Property ;
         rdfs:label "Description"@en ;
         rdfs:comment "The description of the entity"@en ;
         rdfs:subPropertyOf sdo:description ;
-        sdo:domainIncludes crm:E21_Person, crm:E22_Human-Made_Object, la:Set ;
+        sdo:domainIncludes crm:E21_Person, crm:E22_Human-Made_Object, la:Set, jdcrp:Dataset ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:location a rdf:Property ;
@@ -134,6 +134,16 @@ jdcrp:Dataset a rdf:Property ;
         rdfs:label "Data Source"@en ;
         rdfs:comment "A source of data connected to the JDCRP Data Platform"@en ;
         rdfs:subClassOf sdo:Dataset .
+
+jdcrp:ArchivalSourceDataset a rdf:Property ;
+        rdfs:label "Archival Source Dataset"@en ;
+        rdfs:comment "An archival source of data connected to the JDCRP Data Platform"@en ;
+        rdfs:subClassOf jdcrp:Dataset .
+
+jdcrp:ResearchProjectDataset a rdf:Property ;
+        rdfs:label "Research Project Dataset"@en ;
+        rdfs:comment "A source of data from a research project connected to the JDCRP Data Platform"@en ;
+        rdfs:subClassOf jdcrp:Dataset .
 
 jdcrp:country a rdf:Property ;
         rdfs:label "Country"@en ;
