@@ -13,14 +13,23 @@
 
       "@id": "jdcrp:Card",
       "@context": {
-        "objectType": {
-          "@id": "jdcrp:objectType"
+        "classification": {
+          "@id": "jdcrp:classification"
         },
         "title": {
           "@id": "jdcrp:title"
         },
-        "movements": {
-          "@id": "jdcrp:movements"
+        "forwardedDate": {
+          "@id": "jdcrp:forwardedDate"
+        },
+        "arrivalDate": {
+          "@id": "jdcrp:arrivalDate"
+        },
+        "arrivalCondition": {
+          "@id": "jdcrp:arrivalCondition"
+        },
+        "exitDate": {
+          "@id": "jdcrp:exitDate"
         },
         "material": {
           "@id": "jdcrp:material"
@@ -30,6 +39,9 @@
         },
         "description": {
           "@id": "jdcrp:description"
+        },
+        "authorName": {
+          "@id": "jdcrp:authorName"
         },
         "copiesOfCard": {
           "@id": "jdcrp:copiesOfCard"
@@ -76,17 +88,14 @@
         "wiesbadenIdentifier": {
           "@id": "jdcrp:wiesbadenIdentifier"
         },
-        "was_produced_by": {
-          "@id": "crm:P108i_was_produced_by"
-        },
         "confiscatedFrom": {
           "@id": "jdcrp:confiscatedFrom"
         },
         "has_representation": {
           "@id": "crm:P138i_has_representation"
         },
-        "has_type": {
-          "@id": "crm:P2_has_type"
+        "conditionAndRepairRecord": {
+          "@id": "jdcrp:conditionAndRepairRecord"
         }
       }
 
@@ -163,36 +172,11 @@
         }
       }
     },
-    "Move": {
-      "@id": "crm:E9_Move",
-      "@context": {
-        "date": {
-          "@id": "jdcrp:date"
-        },
-        "condition": {
-          "@id": "jdcrp:condition"
-        },
-        "moved": {
-          "@id": "crm:P25_moved"
-        },
-        "moved_to": {
-          "@id": "crm:P26_moved_to"
-        }
-      }
-    },
     "Visual_Item": {
       "@id": "crm:E36_Visual_Item",
       "@context": {
         "image": {
           "@id": "jdcrp:image"
-        }
-      }
-    },
-    "Production": {
-      "@id": "crm:E12_Production",
-      "@context": {
-        "carried_out_by": {
-          "@id": "crm:P14_carried_out_by"
         }
       }
     },

@@ -174,9 +174,27 @@ jdcrp:confiscatedFrom a rdf:Property ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes crm:E21_Person .
 
-jdcrp:objectType a rdf:Property ;
-        rdfs:label "Object type"@en ;
-        rdfs:comment "The type of object (e.g. Painting or Decorative Arts)"@en ;
+jdcrp:conditionAndRepairRecord a rdf:Property ;
+        rdfs:label "Condition and repair record"@en ;
+        rdfs:comment "TODO: description missing"@en ;
+        sdo:domainIncludes jdcrp:Card ;
+        sdo:rangeIncludes crm:E21_Person .
+
+jdcrp:classification a rdf:Property ;
+        rdfs:label "Classification"@en ;
+        rdfs:comment "The classification of object as denoted on the card"@en ;
+        sdo:domainIncludes jdcrp:Card ;
+        sdo:rangeIncludes sdo:Text .
+
+jdcrp:measurements a rdf:Property ;
+        rdfs:label "Measurements"@en ;
+        rdfs:comment "The measurements of object as denoted on the card"@en ;
+        sdo:domainIncludes jdcrp:Card ;
+        sdo:rangeIncludes sdo:Text .
+
+jdcrp:authorName a rdf:Property ;
+        rdfs:label "Author name"@en ;
+        rdfs:comment "The name of the author"@en ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
@@ -252,10 +270,31 @@ jdcrp:date a rdf:Property ;
         sdo:domainIncludes crm:E9_Move ;
         sdo:rangeIncludes sdo:Text .
 
-jdcrp:condition a rdf:Property ;
-        rdfs:label "Condition"@en ;
-        rdfs:comment "Assessment of the condition of an object at a moment in time"@en ;
-        sdo:domainIncludes crm:E9_Move ;
+jdcrp:forwardedDate a rdf:Property ;
+        rdfs:label "Forwarded date"@en ;
+        rdfs:comment "The date the object on the card was forwarded"@en ;
+        rdfs:subPropertyOf sdo:date ;
+        sdo:domainIncludes jdcrp:Card ;
+        sdo:rangeIncludes sdo:Text .
+
+jdcrp:arrivalDate a rdf:Property ;
+        rdfs:label "Arrival date"@en ;
+        rdfs:comment "The date the object on the card arrived"@en ;
+        rdfs:subPropertyOf sdo:date ;
+        sdo:domainIncludes jdcrp:Card ;
+        sdo:rangeIncludes sdo:Text .
+
+jdcrp:arrivalCondition a rdf:Property ;
+        rdfs:label "Arrival condition"@en ;
+        rdfs:comment "Assessment of the condition of the object at the moment of arriving"@en ;
+        sdo:domainIncludes jdcrp:Card ;
+        sdo:rangeIncludes sdo:Text .
+
+jdcrp:exitDate a rdf:Property ;
+        rdfs:label "Exit date"@en ;
+        rdfs:comment "The date the object on the card exited"@en ;
+        rdfs:subPropertyOf sdo:date ;
+        sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:movements a rdf:Property ;
