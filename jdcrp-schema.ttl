@@ -58,21 +58,21 @@ jdcrp:title a rdf:Property ;
         rdfs:label "Title"@en ;
         rdfs:comment "The title of the entity"@en ;
         rdfs:subPropertyOf sdo:title ;
-        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:description a rdf:Property ;
         rdfs:label "Description"@en ;
         rdfs:comment "The description of the entity"@en ;
         rdfs:subPropertyOf sdo:description ;
-        sdo:domainIncludes crm:E21_Person, crm:E22_Human-Made_Object, la:Set, jdcrp:Dataset ;
+        sdo:domainIncludes crm:E21_Person, jdcrp:Card, la:Set, jdcrp:Dataset ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:location a rdf:Property ;
         rdfs:label "Location"@en ;
         rdfs:comment "The location of the entity, at the time of archiving"@en ;
         rdfs:subPropertyOf sdo:location ;
-        sdo:domainIncludes crm:E22_Human-Made_Object .
+        sdo:domainIncludes jdcrp:Card .
 
 jdcrp:deathDate a rdf:Property ;
         rdfs:label "Death date"@en ;
@@ -106,14 +106,14 @@ jdcrp:height a rdf:Property ;
         rdfs:label "Height"@en ;
         rdfs:comment "The height of the entity"@en ;
         rdfs:subPropertyOf sdo:height ;
-        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:width a rdf:Property ;
         rdfs:label "Width"@en ;
         rdfs:comment "The width of the entity"@en ;
         rdfs:subPropertyOf sdo:width ;
-        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 # JDCRP-specific definitions
@@ -121,26 +121,31 @@ jdcrp:width a rdf:Property ;
 jdcrp:archivalSource a rdf:Property ;
         rdfs:label "Archival source"@en ;
         rdfs:comment "Denotes in which archive (and possibly where in the archive) more details can be found"@en ;
-        sdo:domainIncludes crm:E21_Person, crm:E22_Human-Made_Object ;
+        sdo:domainIncludes crm:E21_Person, jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:source a rdf:Property ;
         rdfs:label "Source"@en ;
         rdfs:comment "The data source the information about this entity comes from"@en ;
-        sdo:domainIncludes crm:E22_Human-Made_Object, crm:E21_Person ;
+        sdo:domainIncludes jdcrp:Card, crm:E21_Person ;
         sdo:rangeIncludes jdcrp:Dataset .
 
-jdcrp:Dataset a rdf:Property ;
+jdcrp:Card a rdfs:Class ;
+        rdfs:label "Card"@en ;
+        rdfs:comment "A registration card from an archive"@en ;
+        rdfs:subClassOf sdo:Thing .
+
+jdcrp:Dataset a rdfs:Class ;
         rdfs:label "Data Source"@en ;
         rdfs:comment "A source of data connected to the JDCRP Data Platform"@en ;
         rdfs:subClassOf sdo:Dataset .
 
-jdcrp:ArchivalSourceDataset a rdf:Property ;
+jdcrp:ArchivalSourceDataset a rdfs:Class ;
         rdfs:label "Archival Source Dataset"@en ;
         rdfs:comment "An archival source of data connected to the JDCRP Data Platform"@en ;
         rdfs:subClassOf jdcrp:Dataset .
 
-jdcrp:ResearchProjectDataset a rdf:Property ;
+jdcrp:ResearchProjectDataset a rdfs:Class ;
         rdfs:label "Research Project Dataset"@en ;
         rdfs:comment "A source of data from a research project connected to the JDCRP Data Platform"@en ;
         rdfs:subClassOf jdcrp:Dataset .
@@ -166,73 +171,73 @@ jdcrp:image a rdf:Property ;
 jdcrp:confiscatedFrom a rdf:Property ;
         rdfs:label "Confiscated from"@en ;
         rdfs:comment "The person from who this objects was confiscated"@en ;
-        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes crm:E21_Person .
 
 jdcrp:objectType a rdf:Property ;
         rdfs:label "Object type"@en ;
         rdfs:comment "The type of object (e.g. Painting or Decorative Arts)"@en ;
-        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:inventoryNumber a rdf:Property ;
         rdfs:label "Inventory number"@en ;
         rdfs:comment "The number in the inventory this object is part of"@en ;
-        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:negativeNumber a rdf:Property ;
         rdfs:label "Negative number"@en ;
         rdfs:comment "The number of the photograph negatives for this object, as described on the Wiesbaden property card"@en ;
-        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:otherPhotos a rdf:Property ;
         rdfs:label "Other photos"@en ;
         rdfs:comment "Other photos of this object, as described on the Wiesbaden property card"@en ;
-        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:depotNumber a rdf:Property ;
         rdfs:label "Depot number"@en ;
         rdfs:comment "Number of the depot, as described on the Wiesbaden property card"@en ;
-        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:munichIdentifier a rdf:Property ;
         rdfs:label "Munich CCP identifier"@en ;
         rdfs:comment "The identifier assigned at the Munich Central Collecting Point"@en ;
-        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:linzIdentifier a rdf:Property ;
         rdfs:label "Linz identifier"@en ;
         rdfs:comment "The identifier assigned at Linz"@en ;
-        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:ausseeIdentifier a rdf:Property ;
         rdfs:label "Aussee identifier"@en ;
         rdfs:comment "The identifier assigned at Aussee"@en ;
-        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:wiesbadenIdentifier a rdf:Property ;
         rdfs:label "Wiesbaden CCP identifier"@en ;
         rdfs:comment "The identifier assigned at the Wiesbaden Central Collecting Point"@en ;
-        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:framed a rdf:Property ;
         rdfs:label "Framed"@en ;
         rdfs:comment "Whether the painting is framed"@en ;
-        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:bibliography a rdf:Property ;
         rdfs:label "Bibliography"@en ;
         rdfs:comment "A bibliography for reference"@en ;
-        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:collectionCode a rdf:Property ;
@@ -256,25 +261,25 @@ jdcrp:condition a rdf:Property ;
 jdcrp:movements a rdf:Property ;
         rdfs:label "Movements"@en ;
         rdfs:comment "Movements as described on Wiesbaden property card"@en ;
-        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:material a rdf:Property ;
         rdfs:label "Material"@en ;
         rdfs:comment "Material of this object (e.g. oil on canvas)"@en ;
-        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:presumedOwner a rdf:Property ;
         rdfs:label "Presumed owner"@en ;
         rdfs:comment "The presumed owner of this object, as described on Wiesbaden property card"@en ;
-        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:copiesOfCard a rdf:Property ;
         rdfs:label "Copies of card"@en ;
         rdfs:comment "Number of copies of the card, as described on Wiesbaden property card"@en ;
-        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:Discipline a rdfs:Class ;
