@@ -58,7 +58,7 @@ jdcrp:title a rdf:Property ;
         rdfs:label "Title"@en ;
         rdfs:comment "The title of the entity"@en ;
         rdfs:subPropertyOf sdo:title ;
-        sdo:domainIncludes jdcrp:Card ;
+        sdo:domainIncludes jdcrp:Card, crm:E22_Human-Made_Object ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:description a rdf:Property ;
