@@ -4,6 +4,7 @@
 @prefix sdo: <https://schema.org/> .
 @prefix la: <https://linked.art/ns/terms/> .
 @prefix jdcrp: <https://schema.jdcrp.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
 
 # Schema.org extensions
 
@@ -183,7 +184,7 @@ jdcrp:conditionAndRepairRecord a rdf:Property ;
 jdcrp:classification a rdf:Property ;
         rdfs:label "Classification"@en ;
         rdfs:comment "The classification of object as denoted on the card"@en ;
-        sdo:domainIncludes jdcrp:Card ;
+        sdo:domainIncludes jdcrp:Card, crm:E22_Human-Made_Object ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:measurements a rdf:Property ;
@@ -331,3 +332,10 @@ jdcrp:discipline a rdf:Property ;
         rdfs:comment "The discipline(s) a person possesses"@en ;
         sdo:domainIncludes crm:E21_Person ;
         sdo:rangeIncludes jdcrp:Discipline .
+
+jdcrp:wasDerivedFrom a rdf:Property ;
+        rdfs:label "Was derived from" ;
+        rdfs:comment "Denoted that the current subject is constructed based on the object"@en ;
+        rdfs:subPropertyOf prov:wasDerivedFrom ;
+        sdo:domainIncludes crm:E21_Person, crm:E22_Human-Made_Object ;
+        sdo:rangeIncludes jdcrp:Card .

@@ -105,6 +105,12 @@
       "@context": {
         "title": {
           "@id": "jdcrp:title"
+        },
+        "wasDerivedFrom": {
+          "@id": "jdcrp:wasDerivedFrom"
+        },
+        "classification": {
+          "@id": "jdcrp:classification"
         }
       }
     },
