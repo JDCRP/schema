@@ -115,8 +115,8 @@
         "produced_by": {
           "@id": "crm:P108i_was_produced_by"
         },
-        "wiesbadenIdentifier": {
-          "@id": "jdcrp:wiesbadenIdentifier"
+        "identifier": {
+          "@id": "jdcrp:identifier"
         }
       }
     },

@@ -15,6 +15,13 @@ jdcrp:name a rdf:Property ;
         sdo:domainIncludes crm:E21_Person, jdcrp:Dataset ;
         sdo:rangeIncludes sdo:Text .
 
+jdcrp:identifier a rdf:Property ;
+        rdfs:label "Identifier"@en ;
+        rdfs:comment "The or one of the identifier(s) of the object"@en ;
+        rdfs:subPropertyOf sdo:identifier ;
+        sdo:domainIncludes crm:E22_Human-Made_Object ;
+        sdo:rangeIncludes sdo:Text .
+
 jdcrp:givenName a rdf:Property ;
         rdfs:label "Given name"@en ;
         rdfs:comment "The given name of a person"@en ;
