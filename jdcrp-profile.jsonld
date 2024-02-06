@@ -178,64 +178,11 @@
         }
       }
     },
-    "Activity": {
-      "@id": "crm:E7_Activity",
-      "@context": {
-        "consists_of": {
-          "@id": "crm:P9_consists_of"
-        },
-        "has_type": {
-          "@id": "crm:P2_has_type"
-        }
-      }
-    },
     "Visual_Item": {
       "@id": "crm:E36_Visual_Item",
       "@context": {
         "image": {
           "@id": "jdcrp:image"
-        }
-      }
-    },
-    "Place": {
-      "@id": "crm:E53_Place"
-    },
-    "Set": {
-      "@id": "la:Set",
-      "@context": {
-        "description": {
-          "@id": "jdcrp:description"
-        },
-        "has_member": {
-          "@id": "la:has_member"
-        },
-        "collectionCode": {
-          "@id": "jdcrp:collectionCode"
-        },
-        "was_created_by": {
-          "@id": "crm:P94i_was_created_by"
-        },
-        "has_type": {
-          "@id": "crm:P2_has_type"
-        }
-      }
-    },
-    "Creation": {
-      "@id": "crm:E65_Creation",
-      "@context": {
-        "carried_out_by": {
-          "@id": "crm:P14_carried_out_by"
-        }
-      }
-    },
-    "Type": {
-      "@id": "crm:E55_Type"
-    },
-    "Discipline": {
-      "@id": "jdcrp:Discipline",
-      "@context": {
-        "name": {
-          "@id": "jdcrp:name"
         }
       }
     },
