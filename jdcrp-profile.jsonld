@@ -158,20 +158,11 @@
         "birthPlace": {
           "@id": "jdcrp:birthPlace"
         },
-        "country": {
-          "@id": "jdcrp:country"
-        },
-        "city": {
-          "@id": "jdcrp:city"
-        },
         "biographyReference": {
           "@id": "jdcrp:biographyReference"
         },
         "artworksReference": {
           "@id": "jdcrp:artworksReference"
-        },
-        "description": {
-          "@id": "jdcrp:description"
         },
         "discipline": {
           "@id": "jdcrp:discipline"
