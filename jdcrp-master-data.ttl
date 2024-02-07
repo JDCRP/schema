@@ -8,6 +8,10 @@
         jdcrp:name "ERR Jeu de Paume"@en ;
         jdcrp:description "The central digital platform contains the registration cards of the main Nazi looting agency, the Einsatzstab Reichsleiter Rosenberg. More than 40,000 objects looted from Jews in German-occupied France and Belgium are searchable. The website of the original research project can be found at ERR_jeudepaume. Many more sources from various archives around the world are being prepared for implementation soon."@en .
 
+<https://data.jdcrp.org/dataset/nara> a jdcrp:ArchivalSourceDataset ;
+        jdcrp:name "National Archives and Records Administration (NARA)"@en ;
+        jdcrp:description "The National Archives and Records Administration (NARA)"@en .
+
 <https://data.jdcrp.org/dataset/persecuted_jewish_artists> a jdcrp:ResearchProjectDataset ;
         jdcrp:name "JDCRP Persecuted Jewish Artists"@en ;
         jdcrp:description "The JDCRP prepared an initial list of visual artists that were persecuted by the Nazis throughout Europe. The initial list consists of 1.000 names. It is a work-in-progress project aiming to include many more names from many more countries. To find out more about the research project please visit the JDCRP´s website JDCRP_artist . To access the initial list please visit JDCRP_airtable. You can search for each artist´s name in the digital platform by entering their name into the search slot."@en .

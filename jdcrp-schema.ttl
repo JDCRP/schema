@@ -129,18 +129,23 @@ jdcrp:width a rdf:Property ;
 jdcrp:archivalSource a rdf:Property ;
         rdfs:label "Archival source"@en ;
         rdfs:comment "Denotes in which archive (and possibly where in the archive) more details can be found"@en ;
-        sdo:domainIncludes crm:E21_Person, jdcrp:Card ;
+        sdo:domainIncludes jdcrp:Card, jdcrp:Photograph ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:source a rdf:Property ;
         rdfs:label "Source"@en ;
         rdfs:comment "The data source the information about this entity comes from"@en ;
-        sdo:domainIncludes jdcrp:Card, crm:E21_Person ;
+        sdo:domainIncludes jdcrp:Card, jdcrp:Photograph ;
         sdo:rangeIncludes jdcrp:Dataset .
 
 jdcrp:Card a rdfs:Class ;
         rdfs:label "Card"@en ;
         rdfs:comment "A registration card from an archive"@en ;
+        rdfs:subClassOf sdo:Thing .
+
+jdcrp:Photograph a rdfs:Class ;
+        rdfs:label "Photograph"@en ;
+        rdfs:comment "A photograph from an archive"@en ;
         rdfs:subClassOf sdo:Thing .
 
 jdcrp:Dataset a rdfs:Class ;
@@ -251,7 +256,7 @@ jdcrp:ausseeIdentifier a rdf:Property ;
 jdcrp:wiesbadenIdentifier a rdf:Property ;
         rdfs:label "Wiesbaden CCP identifier"@en ;
         rdfs:comment "The identifier assigned at the Wiesbaden Central Collecting Point"@en ;
-        sdo:domainIncludes jdcrp:Card ;
+        sdo:domainIncludes jdcrp:Card, jdcrp:Photograph ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:framed a rdf:Property ;
