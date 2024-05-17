@@ -138,15 +138,30 @@ jdcrp:source a rdf:Property ;
         sdo:domainIncludes jdcrp:Card, jdcrp:Photograph ;
         sdo:rangeIncludes jdcrp:Dataset .
 
+jdcrp:ArchivalRecord a rdfs:Class ;
+        rdfs:label "Record"@en ;
+        rdfs:comment "An entry in an archive. Could be a Card, Photograph, List or ListItem"@en ;
+        rdfs:subClassOf sdo:Thing .
+
+jdcrp:ListItem a rdfs:Class ;
+        rdfs:label "List item"@en ;
+        rdfs:comment "An item on a list from an archive"@en ;
+        rdfs:subClassOf jdcrp:ArchivalRecord .
+
+jdcrp:List a rdfs:Class ;
+        rdfs:label "List"@en ;
+        rdfs:comment "A list from an archive"@en ;
+        rdfs:subClassOf jdcrp:ArchivalRecord .
+
 jdcrp:Card a rdfs:Class ;
         rdfs:label "Card"@en ;
         rdfs:comment "A registration card from an archive"@en ;
-        rdfs:subClassOf sdo:Thing .
+        rdfs:subClassOf jdcrp:ArchivalRecord .
 
 jdcrp:Photograph a rdfs:Class ;
         rdfs:label "Photograph"@en ;
         rdfs:comment "A photograph from an archive"@en ;
-        rdfs:subClassOf sdo:Thing .
+        rdfs:subClassOf sdo:ArchivalRecord .
 
 jdcrp:Dataset a rdfs:Class ;
         rdfs:label "Data Source"@en ;
