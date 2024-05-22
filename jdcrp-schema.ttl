@@ -337,6 +337,12 @@ jdcrp:material a rdf:Property ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
+jdcrp:archivalAutonumber a rdf:Property ;
+        rdfs:label "Archival auto-number"@en ;
+        rdfs:comment "An automatically generated number for this archival record. Incrementing this number by one will yield the next record in order of the original archive." ;
+        sdo:domainIncludes jdcrp:ArchivalRecord ;
+        sdo:rangeIncludes sdo:Text .
+
 jdcrp:presumedOwner a rdf:Property ;
         rdfs:label "Presumed owner"@en ;
         rdfs:comment "The presumed owner of this object, as described on Wiesbaden property card"@en ;
