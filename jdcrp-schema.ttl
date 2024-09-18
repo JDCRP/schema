@@ -9,117 +9,117 @@
 # Schema.org extensions
 
 jdcrp:name a rdf:Property ;
-        rdfs:label "Name"@en ;
-        rdfs:comment "The name of the entity"@en ;
+        rdfs:label "Name" ;
+        rdfs:comment "The name of the entity" ;
         rdfs:subPropertyOf sdo:name ;
         sdo:domainIncludes crm:E21_Person, jdcrp:Dataset ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:identifier a rdf:Property ;
-        rdfs:label "Identifier"@en ;
-        rdfs:comment "The or one of the identifier(s) of the object"@en ;
+        rdfs:label "Identifier" ;
+        rdfs:comment "The or one of the identifier(s) of the object" ;
         rdfs:subPropertyOf sdo:identifier ;
         sdo:domainIncludes crm:E22_Human-Made_Object ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:givenName a rdf:Property ;
-        rdfs:label "Given name"@en ;
-        rdfs:comment "The given name of a person"@en ;
+        rdfs:label "Given name" ;
+        rdfs:comment "The given name of a person" ;
         rdfs:subPropertyOf sdo:givenName ;
         sdo:domainIncludes crm:E21_Person ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:familyName a rdf:Property ;
-        rdfs:label "Family name"@en ;
-        rdfs:comment "The family name of a person"@en ;
+        rdfs:label "Family name" ;
+        rdfs:comment "The family name of a person" ;
         rdfs:subPropertyOf sdo:familyName ;
         sdo:domainIncludes crm:E21_Person ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:additionalName a rdf:Property ;
-        rdfs:label "Additional name"@en ;
-        rdfs:comment "An additional or alternate name of a person. Could also be a spelling variant."@en ;
+        rdfs:label "Additional name" ;
+        rdfs:comment "An additional or alternate name of a person. Could also be a spelling variant." ;
         rdfs:subPropertyOf sdo:additionalName ;
         sdo:domainIncludes crm:E21_Person ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:biographyReference a rdf:Property ;
-        rdfs:label "Biography reference"@en ;
-        rdfs:comment "Reference to an external biography of this person"@en ;
+        rdfs:label "Biography reference" ;
+        rdfs:comment "Reference to an external biography of this person" ;
         sdo:domainIncludes crm:E21_Person ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:artworksReference a rdf:Property ;
-        rdfs:label "Artworks reference"@en ;
-        rdfs:comment "Reference to an external description of artworks by this person"@en ;
+        rdfs:label "Artworks reference" ;
+        rdfs:comment "Reference to an external description of artworks by this person" ;
         sdo:domainIncludes crm:E21_Person ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:gender a rdf:Property ;
-        rdfs:label "Gender"@en ;
-        rdfs:comment "The gender of a person"@en ;
+        rdfs:label "Gender" ;
+        rdfs:comment "The gender of a person" ;
         rdfs:subPropertyOf sdo:gender ;
         sdo:domainIncludes crm:E21_Person ;
         sdo:rangeIncludes sdo:GenderType .
 
 jdcrp:title a rdf:Property ;
-        rdfs:label "Title"@en ;
-        rdfs:comment "The title of the entity"@en ;
+        rdfs:label "Title" ;
+        rdfs:comment "The title of the entity" ;
         rdfs:subPropertyOf sdo:title ;
         sdo:domainIncludes jdcrp:Card, crm:E22_Human-Made_Object ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:description a rdf:Property ;
-        rdfs:label "Description"@en ;
-        rdfs:comment "The description of the entity"@en ;
+        rdfs:label "Description" ;
+        rdfs:comment "The description of the entity" ;
         rdfs:subPropertyOf sdo:description ;
         sdo:domainIncludes crm:E21_Person, jdcrp:Card, la:Set, jdcrp:Dataset ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:location a rdf:Property ;
-        rdfs:label "Location"@en ;
-        rdfs:comment "The location of the entity, at the time of archiving"@en ;
+        rdfs:label "Location" ;
+        rdfs:comment "The location of the entity, at the time of archiving" ;
         rdfs:subPropertyOf sdo:location ;
         sdo:domainIncludes jdcrp:Card .
 
 jdcrp:deathDate a rdf:Property ;
-        rdfs:label "Death date"@en ;
-        rdfs:comment "The date of death of the person"@en ;
+        rdfs:label "Death date" ;
+        rdfs:comment "The date of death of the person" ;
         rdfs:subPropertyOf sdo:deathDate ;
         sdo:domainIncludes crm:E21_Person ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:deathPlace a rdf:Property ;
-        rdfs:label "Death place"@en ;
-        rdfs:comment "The place where a person died"@en ;
+        rdfs:label "Death place" ;
+        rdfs:comment "The place where a person died" ;
         rdfs:subPropertyOf sdo:deathPlace ;
         sdo:domainIncludes crm:E21_Person ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:birthDate a rdf:Property ;
-        rdfs:label "Birth date"@en ;
-        rdfs:comment "The date of birth of the person"@en ;
+        rdfs:label "Birth date" ;
+        rdfs:comment "The date of birth of the person" ;
         rdfs:subPropertyOf sdo:birthDate ;
         sdo:domainIncludes crm:E21_Person ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:birthPlace a rdf:Property ;
-        rdfs:label "Birth place"@en ;
-        rdfs:comment "The place where a person was born"@en ;
+        rdfs:label "Birth place" ;
+        rdfs:comment "The place where a person was born" ;
         rdfs:subPropertyOf sdo:birthPlace ;
         sdo:domainIncludes crm:E21_Person ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:height a rdf:Property ;
-        rdfs:label "Height"@en ;
-        rdfs:comment "The height of the entity"@en ;
+        rdfs:label "Height" ;
+        rdfs:comment "The height of the entity" ;
         rdfs:subPropertyOf sdo:height ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:width a rdf:Property ;
-        rdfs:label "Width"@en ;
-        rdfs:comment "The width of the entity"@en ;
+        rdfs:label "Width" ;
+        rdfs:comment "The width of the entity" ;
         rdfs:subPropertyOf sdo:width ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
@@ -127,248 +127,248 @@ jdcrp:width a rdf:Property ;
 # JDCRP-specific definitions
 
 jdcrp:archivalSource a rdf:Property ;
-        rdfs:label "Archival source"@en ;
-        rdfs:comment "Denotes in which archive (and possibly where in the archive) more details can be found"@en ;
+        rdfs:label "Archival source" ;
+        rdfs:comment "Denotes in which archive (and possibly where in the archive) more details can be found" ;
         sdo:domainIncludes jdcrp:Card, jdcrp:Photograph ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:source a rdf:Property ;
-        rdfs:label "Source"@en ;
-        rdfs:comment "The data source the information about this entity comes from"@en ;
+        rdfs:label "Source" ;
+        rdfs:comment "The data source the information about this entity comes from" ;
         sdo:domainIncludes jdcrp:Card, jdcrp:Photograph ;
         sdo:rangeIncludes jdcrp:Dataset .
 
 jdcrp:ArchivalRecord a rdfs:Class ;
-        rdfs:label "Record"@en ;
-        rdfs:comment "An entry in an archive. Could be a Card, Photograph, List or ListItem"@en ;
+        rdfs:label "Record" ;
+        rdfs:comment "An entry in an archive. Could be a Card, Photograph, List or ListItem" ;
         rdfs:subClassOf sdo:Thing .
 
 jdcrp:ListItem a rdfs:Class ;
-        rdfs:label "List item"@en ;
-        rdfs:comment "An item on a list from an archive"@en ;
+        rdfs:label "List item" ;
+        rdfs:comment "An item on a list from an archive" ;
         rdfs:subClassOf jdcrp:ArchivalRecord .
 
 jdcrp:List a rdfs:Class ;
-        rdfs:label "List"@en ;
-        rdfs:comment "A list from an archive"@en ;
+        rdfs:label "List" ;
+        rdfs:comment "A list from an archive" ;
         rdfs:subClassOf jdcrp:ArchivalRecord .
 
 jdcrp:Card a rdfs:Class ;
-        rdfs:label "Card"@en ;
-        rdfs:comment "A registration card from an archive"@en ;
+        rdfs:label "Card" ;
+        rdfs:comment "A registration card from an archive" ;
         rdfs:subClassOf jdcrp:ArchivalRecord .
 
 jdcrp:Photograph a rdfs:Class ;
-        rdfs:label "Photograph"@en ;
-        rdfs:comment "A photograph from an archive"@en ;
+        rdfs:label "Photograph" ;
+        rdfs:comment "A photograph from an archive" ;
         rdfs:subClassOf sdo:ArchivalRecord .
 
 jdcrp:Dataset a rdfs:Class ;
-        rdfs:label "Data Source"@en ;
-        rdfs:comment "A source of data connected to the JDCRP Data Platform"@en ;
+        rdfs:label "Data Source" ;
+        rdfs:comment "A source of data connected to the JDCRP Data Platform" ;
         rdfs:subClassOf sdo:Dataset .
 
 jdcrp:ArchivalSourceDataset a rdfs:Class ;
-        rdfs:label "Archival Source Dataset"@en ;
-        rdfs:comment "An archival source of data connected to the JDCRP Data Platform"@en ;
+        rdfs:label "Archival Source Dataset" ;
+        rdfs:comment "An archival source of data connected to the JDCRP Data Platform" ;
         rdfs:subClassOf jdcrp:Dataset .
 
 jdcrp:ResearchProjectDataset a rdfs:Class ;
-        rdfs:label "Research Project Dataset"@en ;
-        rdfs:comment "A source of data from a research project connected to the JDCRP Data Platform"@en ;
+        rdfs:label "Research Project Dataset" ;
+        rdfs:comment "A source of data from a research project connected to the JDCRP Data Platform" ;
         rdfs:subClassOf jdcrp:Dataset .
 
 jdcrp:country a rdf:Property ;
-        rdfs:label "Country"@en ;
-        rdfs:comment "The country associated with an entity"@en ;
+        rdfs:label "Country" ;
+        rdfs:comment "The country associated with an entity" ;
         sdo:domainIncludes crm:E21_Person ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:city a rdf:Property ;
-        rdfs:label "City"@en ;
-        rdfs:comment "The city associated with an entity"@en ;
+        rdfs:label "City" ;
+        rdfs:comment "The city associated with an entity" ;
         sdo:domainIncludes crm:E21_Person ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:image a rdf:Property ;
-        rdfs:label "Image"@en ;
-        rdfs:comment "A link to the image"@en ;
+        rdfs:label "Image" ;
+        rdfs:comment "A link to the image" ;
         rdfs:subPropertyOf sdo:image ;
         sdo:domainIncludes crm:E36_Visual_Item .
 
 jdcrp:confiscatedFrom a rdf:Property ;
-        rdfs:label "Confiscated from"@en ;
-        rdfs:comment "The person from who this objects was confiscated"@en ;
+        rdfs:label "Confiscated from" ;
+        rdfs:comment "The person from who this objects was confiscated" ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes crm:E21_Person .
 
 jdcrp:conditionAndRepairRecord a rdf:Property ;
-        rdfs:label "Condition and repair record"@en ;
-        rdfs:comment "TODO: description missing"@en ;
+        rdfs:label "Condition and repair record" ;
+        rdfs:comment "TODO: description missing" ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes crm:E21_Person .
 
 jdcrp:classification a rdf:Property ;
-        rdfs:label "Classification"@en ;
-        rdfs:comment "The classification of object as denoted on the card"@en ;
+        rdfs:label "Classification" ;
+        rdfs:comment "The classification of object as denoted on the card" ;
         sdo:domainIncludes jdcrp:Card, crm:E22_Human-Made_Object ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:measurements a rdf:Property ;
-        rdfs:label "Measurements"@en ;
-        rdfs:comment "The measurements of object as denoted on the card"@en ;
+        rdfs:label "Measurements" ;
+        rdfs:comment "The measurements of object as denoted on the card" ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:authorName a rdf:Property ;
-        rdfs:label "Author name"@en ;
-        rdfs:comment "The name of the author"@en ;
+        rdfs:label "Author name" ;
+        rdfs:comment "The name of the author" ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:inventoryNumber a rdf:Property ;
-        rdfs:label "Inventory number"@en ;
-        rdfs:comment "The number in the inventory this object is part of"@en ;
+        rdfs:label "Inventory number" ;
+        rdfs:comment "The number in the inventory this object is part of" ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:negativeNumber a rdf:Property ;
-        rdfs:label "Negative number"@en ;
-        rdfs:comment "The number of the photograph negatives for this object, as described on the Wiesbaden property card"@en ;
+        rdfs:label "Negative number" ;
+        rdfs:comment "The number of the photograph negatives for this object, as described on the Wiesbaden property card" ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:otherPhotos a rdf:Property ;
-        rdfs:label "Other photos"@en ;
-        rdfs:comment "Other photos of this object, as described on the Wiesbaden property card"@en ;
+        rdfs:label "Other photos" ;
+        rdfs:comment "Other photos of this object, as described on the Wiesbaden property card" ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:depotNumber a rdf:Property ;
-        rdfs:label "Depot number"@en ;
-        rdfs:comment "Number of the depot, as described on the Wiesbaden property card"@en ;
+        rdfs:label "Depot number" ;
+        rdfs:comment "Number of the depot, as described on the Wiesbaden property card" ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:munichIdentifier a rdf:Property ;
-        rdfs:label "Munich CCP identifier"@en ;
-        rdfs:comment "The identifier assigned at the Munich Central Collecting Point"@en ;
+        rdfs:label "Munich CCP identifier" ;
+        rdfs:comment "The identifier assigned at the Munich Central Collecting Point" ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:linzIdentifier a rdf:Property ;
-        rdfs:label "Linz identifier"@en ;
-        rdfs:comment "The identifier assigned at Linz"@en ;
+        rdfs:label "Linz identifier" ;
+        rdfs:comment "The identifier assigned at Linz" ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:ausseeIdentifier a rdf:Property ;
-        rdfs:label "Aussee identifier"@en ;
-        rdfs:comment "The identifier assigned at Aussee"@en ;
+        rdfs:label "Aussee identifier" ;
+        rdfs:comment "The identifier assigned at Aussee" ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:wiesbadenIdentifier a rdf:Property ;
-        rdfs:label "Wiesbaden CCP identifier"@en ;
-        rdfs:comment "The identifier assigned at the Wiesbaden Central Collecting Point"@en ;
+        rdfs:label "Wiesbaden CCP identifier" ;
+        rdfs:comment "The identifier assigned at the Wiesbaden Central Collecting Point" ;
         sdo:domainIncludes jdcrp:Card, jdcrp:Photograph ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:framed a rdf:Property ;
-        rdfs:label "Framed"@en ;
-        rdfs:comment "Whether the painting is framed"@en ;
+        rdfs:label "Framed" ;
+        rdfs:comment "Whether the painting is framed" ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:bibliography a rdf:Property ;
-        rdfs:label "Bibliography"@en ;
-        rdfs:comment "A bibliography for reference"@en ;
+        rdfs:label "Bibliography" ;
+        rdfs:comment "A bibliography for reference" ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:collectionCode a rdf:Property ;
-        rdfs:label "Collection code"@en ;
-        rdfs:comment "The (unique) code given to the collection"@en ;
+        rdfs:label "Collection code" ;
+        rdfs:comment "The (unique) code given to the collection" ;
         sdo:domainIncludes la:Set ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:date a rdf:Property ;
-        rdfs:label "Date"@en ;
-        rdfs:comment "The date something took place"@en ;
+        rdfs:label "Date" ;
+        rdfs:comment "The date something took place" ;
         sdo:domainIncludes crm:E9_Move ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:forwardedDate a rdf:Property ;
-        rdfs:label "Forwarded date"@en ;
-        rdfs:comment "The date the object on the card was forwarded"@en ;
+        rdfs:label "Forwarded date" ;
+        rdfs:comment "The date the object on the card was forwarded" ;
         rdfs:subPropertyOf sdo:date ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:arrivalDate a rdf:Property ;
-        rdfs:label "Arrival date"@en ;
-        rdfs:comment "The date the object on the card arrived"@en ;
+        rdfs:label "Arrival date" ;
+        rdfs:comment "The date the object on the card arrived" ;
         rdfs:subPropertyOf sdo:date ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:arrivalCondition a rdf:Property ;
-        rdfs:label "Arrival condition"@en ;
-        rdfs:comment "Assessment of the condition of the object at the moment of arriving"@en ;
+        rdfs:label "Arrival condition" ;
+        rdfs:comment "Assessment of the condition of the object at the moment of arriving" ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:exitDate a rdf:Property ;
-        rdfs:label "Exit date"@en ;
-        rdfs:comment "The date the object on the card exited"@en ;
+        rdfs:label "Exit date" ;
+        rdfs:comment "The date the object on the card exited" ;
         rdfs:subPropertyOf sdo:date ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:movements a rdf:Property ;
-        rdfs:label "Movements"@en ;
-        rdfs:comment "Movements as described on Wiesbaden property card"@en ;
+        rdfs:label "Movements" ;
+        rdfs:comment "Movements as described on Wiesbaden property card" ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:material a rdf:Property ;
-        rdfs:label "Material"@en ;
-        rdfs:comment "Material of this object (e.g. oil on canvas)"@en ;
+        rdfs:label "Material" ;
+        rdfs:comment "Material of this object (e.g. oil on canvas)" ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:archivalAutonumber a rdf:Property ;
-        rdfs:label "Archival auto-number"@en ;
+        rdfs:label "Archival auto-number" ;
         rdfs:comment "An automatically generated number for this archival record. Incrementing this number by one will yield the next record in order of the original archive." ;
         sdo:domainIncludes jdcrp:ArchivalRecord ;
         sdo:rangeIncludes sdo:Number .
 
 jdcrp:presumedOwner a rdf:Property ;
-        rdfs:label "Presumed owner"@en ;
-        rdfs:comment "The presumed owner of this object, as described on Wiesbaden property card"@en ;
+        rdfs:label "Presumed owner" ;
+        rdfs:comment "The presumed owner of this object, as described on Wiesbaden property card" ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:copiesOfCard a rdf:Property ;
-        rdfs:label "Copies of card"@en ;
-        rdfs:comment "Number of copies of the card, as described on Wiesbaden property card"@en ;
+        rdfs:label "Copies of card" ;
+        rdfs:comment "Number of copies of the card, as described on Wiesbaden property card" ;
         sdo:domainIncludes jdcrp:Card ;
         sdo:rangeIncludes sdo:Text .
 
 jdcrp:Discipline a rdfs:Class ;
-        rdfs:label "Discipline"@en ;
-        rdfs:comment "The field in which a person possesses specific knowledge or skill"@en ;
+        rdfs:label "Discipline" ;
+        rdfs:comment "The field in which a person possesses specific knowledge or skill" ;
         rdfs:subClassOf sdo:Intangible .
 
 jdcrp:discipline a rdf:Property ;
         rdfs:label "Discipline" ;
-        rdfs:comment "The discipline(s) a person possesses"@en ;
+        rdfs:comment "The discipline(s) a person possesses" ;
         sdo:domainIncludes crm:E21_Person ;
         sdo:rangeIncludes jdcrp:Discipline .
 
 jdcrp:wasDerivedFrom a rdf:Property ;
         rdfs:label "Was derived from" ;
-        rdfs:comment "Denoted that the current subject is constructed based on the object"@en ;
+        rdfs:comment "Denoted that the current subject is constructed based on the object" ;
         rdfs:subPropertyOf prov:wasDerivedFrom ;
         sdo:domainIncludes crm:E21_Person, crm:E22_Human-Made_Object ;
         sdo:rangeIncludes jdcrp:Card .
