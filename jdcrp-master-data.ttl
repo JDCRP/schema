@@ -1,24 +1,24 @@
 @prefix jdcrp: <https://schema.jdcrp.org/> .
 
 <https://data.jdcrp.org/dataset/wiesbadenccp> a jdcrp:ArchivalSourceDataset ;
-        jdcrp:name "Wiesbaden CCP"@en ;
+        jdcrp:name "Wiesbaden CCP" ;
         jdcrp:description "After the liberation of Germany, the Allied Forces set up Collecting Points throughout the country to process looted objects with the aim of returning them to their original owners. One of the American Forces Collecting Points was established at the Landesmuseum in Wiesbaden. 6,673 property cards with a total of 12,578 pages are fully searchable in the Central Digital Platform. They provide a wealth of information on the looted objects themselves, but also on the whereabouts of the looted objects, the translocations, and the individuals and organisations involved in the looting and subsequent recovery of the objects."@en .
 
 <https://data.jdcrp.org/dataset/marburgccp> a jdcrp:ArchivalSourceDataset ;
-        jdcrp:name "Marburg CCP"@en .
+        jdcrp:name "Marburg CCP" .
 
 <https://data.jdcrp.org/dataset/errproject> a jdcrp:ArchivalSourceDataset ;
-        jdcrp:name "ERR Jeu de Paume"@en ;
+        jdcrp:name "ERR Jeu de Paume" ;
         jdcrp:description "The central digital platform contains the registration cards of the main Nazi looting agency, the Einsatzstab Reichsleiter Rosenberg. More than 40,000 objects looted from Jews in German-occupied France and Belgium are searchable. The website of the original research project can be found at ERR_jeudepaume. Many more sources from various archives around the world are being prepared for implementation soon."@en .
 
 <https://data.jdcrp.org/dataset/nara> a jdcrp:ArchivalSourceDataset ;
-        jdcrp:name "National Archives and Records Administration (NARA)"@en ;
-        jdcrp:description "The National Archives and Records Administration (NARA)"@en .
+        jdcrp:name "National Archives and Records Administration (NARA)" ;
+        jdcrp:description "The National Archives and Records Administration (NARA)" .
 
 <https://data.jdcrp.org/dataset/persecuted_jewish_artists> a jdcrp:ResearchProjectDataset ;
-        jdcrp:name "JDCRP Persecuted Jewish Artists"@en ;
-        jdcrp:description "The JDCRP prepared an initial list of visual artists that were persecuted by the Nazis throughout Europe. The initial list consists of 1.000 names. It is a work-in-progress project aiming to include many more names from many more countries. To find out more about the research project please visit the JDCRP´s website JDCRP_artist . To access the initial list please visit JDCRP_airtable. You can search for each artist´s name in the digital platform by entering their name into the search slot."@en .
+        jdcrp:name "JDCRP Persecuted Jewish Artists" ;
+        jdcrp:description "The JDCRP prepared an initial list of visual artists that were persecuted by the Nazis throughout Europe. The initial list consists of 1.000 names. It is a work-in-progress project aiming to include many more names from many more countries. To find out more about the research project please visit the JDCRP´s website JDCRP_artist . To access the initial list please visit JDCRP_airtable. You can search for each artist´s name in the digital platform by entering their name into the search slot." .
 
 <https://data.jdcrp.org/dataset/persecuted_jewish_collectors> a jdcrp:ResearchProjectDataset ;
-        jdcrp:name "JDCRP Persecuted Jewish Collectors"@en ;
-        jdcrp:description "The JDCRP prepared an initial list for Jewish Collectors that were persecuted by the Nazis. The initial list includes 2.000 names of collectors from various European countries. This is a work-in-progress research project, more names of collectors will be added over the time. To find out more about the research project please visit: JDCRP, to take a look at the initial list please visit JDCRP_list. You can search for each collector´s name in the digital platform by entering their name into the search slot."@en .
+        jdcrp:name "JDCRP Persecuted Jewish Collectors" ;
+        jdcrp:description "The JDCRP prepared an initial list for Jewish Collectors that were persecuted by the Nazis. The initial list includes 2.000 names of collectors from various European countries. This is a work-in-progress research project, more names of collectors will be added over the time. To find out more about the research project please visit: JDCRP, to take a look at the initial list please visit JDCRP_list. You can search for each collector´s name in the digital platform by entering their name into the search slot." .
