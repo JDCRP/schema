@@ -5,7 +5,6 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "sdo": "https://schema.org/",
-    "la": "https://linked.art/ns/terms/",
     "jdcrp": "https://schema.jdcrp.org/",
     "id": "@id",
     "type": "@type",
@@ -104,83 +103,31 @@
         "source": {
           "@id": "jdcrp:source"
         },
-        "wiesbadenIdentifier": {
-          "@id": "jdcrp:wiesbadenIdentifier"
+        "identifier": {
+          "@id": "jdcrp:identifier"
         },
         "has_representation": {
           "@id": "crm:P138i_has_representation"
         }
       }
     },
-    "Human-Made_Object": {
-      "@id": "crm:E22_Human-Made_Object",
-      "@context": {
-        "title": {
-          "@id": "jdcrp:title"
-        },
-        "wasDerivedFrom": {
-          "@id": "jdcrp:wasDerivedFrom"
-        },
-        "classification": {
-          "@id": "jdcrp:classification"
-        },
-        "produced_by": {
-          "@id": "crm:P108i_was_produced_by"
-        },
-        "identifier": {
-          "@id": "jdcrp:identifier"
-        }
-      }
-    },
-    "Production": {
-      "@id": "crm:E12_Production",
-      "@context": {
-        "carried_out_by": {
-          "@id": "crm:P14_carried_out_by"
-        }
-      }
-    },
     "Person": {
-      "@id": "crm:E21_Person",
+      "@id": "jdcrp:Person",
       "@context": {
         "name": {
           "@id": "jdcrp:name"
         },
-        "givenName": {
-          "@id": "jdcrp:givenName"
+        "description": {
+          "@id": "jdcrp:description"
         },
-        "familyName": {
-          "@id": "jdcrp:familyName"
+        "otherKnownNames": {
+          "@id": "jdcrp:otherKnownNames"
         },
-        "additionalName": {
-          "@id": "jdcrp:additionalName"
+        "abbreviation": {
+          "@id": "jdcrp:abbreviation"
         },
-        "gender": {
-          "@id": "jdcrp:gender"
-        },
-        "deathDate": {
-          "@id": "jdcrp:deathDate"
-        },
-        "deathPlace": {
-          "@id": "jdcrp:deathPlace"
-        },
-        "birthDate": {
-          "@id": "jdcrp:birthDate"
-        },
-        "birthPlace": {
-          "@id": "jdcrp:birthPlace"
-        },
-        "biographyReference": {
-          "@id": "jdcrp:biographyReference"
-        },
-        "artworksReference": {
-          "@id": "jdcrp:artworksReference"
-        },
-        "discipline": {
-          "@id": "jdcrp:discipline"
-        },
-        "source": {
-          "@id": "jdcrp:source"
+        "synonyms": {
+          "@id": "jdcrp:synonyms"
         }
       }
     },
@@ -191,9 +138,6 @@
           "@id": "jdcrp:image"
         }
       }
-    },
-    "label": {
-      "@id": "rdfs:label"
     }
   }
 }
