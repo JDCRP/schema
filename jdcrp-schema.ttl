@@ -14,7 +14,7 @@ jdcrp:ArchivalRecord a rdfs:Class ;
         rdfs:subClassOf sdo:Thing .
 
 jdcrp:ExternalRecord a rdfs:Class ;
-        rdfs:label "Externally generated information" ;
+        rdfs:label "External record" ;
         rdfs:comment "A record for which JDCRP cannot provide direct access to the source but that was sourced externally" ;
         rdfs:subClassOf jdcrp:ArchivalRecord .
 
