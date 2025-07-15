@@ -1,11 +1,11 @@
 @prefix jdcrp: <https://schema.jdcrp.org/> .
 
 <https://data.jdcrp.org/dataset/wiesbadenccp> a jdcrp:ArchivalSourceDataset ;
-        jdcrp:name "Wiesbaden CCP" ;
+        jdcrp:name "Wiesbaden CCP Property Cards (Bundesarchiv)" ;
         jdcrp:description "After the liberation of Germany, the Allied Forces set up Collecting Points throughout the country to process looted objects with the aim of returning them to their original owners. One of the American Forces Collecting Points was established at the Landesmuseum in Wiesbaden. 6,673 property cards with a total of 12,578 pages are fully searchable in the Central Digital Platform. They provide a wealth of information on the looted objects themselves, but also on the whereabouts of the looted objects, the translocations, and the individuals and organisations involved in the looting and subsequent recovery of the objects."@en .
 
 <https://data.jdcrp.org/dataset/marburgccp> a jdcrp:ArchivalSourceDataset ;
-        jdcrp:name "Marburg CCP" .
+        jdcrp:name "Marburg CCP Property Cards (Bundesarchiv)" .
 
 <https://data.jdcrp.org/dataset/errproject> a jdcrp:ArchivalSourceDataset ;
         jdcrp:name "ERR Jeu de Paume" ;
@@ -13,7 +13,7 @@
 
 <https://data.jdcrp.org/dataset/nara> a jdcrp:ArchivalSourceDataset ;
         jdcrp:name "National Archives and Records Administration (NARA)" ;
-        jdcrp:description "The National Archives and Records Administration (NARA)" .
+        jdcrp:description "Wiesbaden CCP Photographs (NARA)" .
 
 <https://data.jdcrp.org/dataset/persecuted_jewish_artists> a jdcrp:ResearchProjectDataset ;
         jdcrp:name "JDCRP Persecuted Jewish Artists" ;
