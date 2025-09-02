@@ -12,8 +12,8 @@
         jdcrp:description "The central digital platform contains the registration cards of the main Nazi looting agency, the Einsatzstab Reichsleiter Rosenberg. More than 40,000 objects looted from Jews in German-occupied France and Belgium are searchable. The website of the original research project can be found at ERR_jeudepaume. Many more sources from various archives around the world are being prepared for implementation soon."@en .
 
 <https://data.jdcrp.org/dataset/nara> a jdcrp:ArchivalSourceDataset ;
-        jdcrp:name "Wiesbaden CCP Photographs (NARA)" ;
-        jdcrp:description "Wiesbaden CCP Photographs (NARA)" .
+        jdcrp:name "Photographs of Objects and Activities at the Wiesbaden CCP (NARA)" ;
+        jdcrp:description "Photographs of Objects and Activities at the Wiesbaden CCP (NARA)" .
 
 <https://data.jdcrp.org/dataset/persecuted_jewish_artists> a jdcrp:ResearchProjectDataset ;
         jdcrp:name "JDCRP Persecuted Jewish Artists" ;
