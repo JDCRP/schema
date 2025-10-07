@@ -29,7 +29,7 @@ jdcrp:List a rdfs:Class ;
         rdfs:subClassOf jdcrp:ArchivalRecord .
 
 jdcrp:Card a rdfs:Class ;
-        rdfs:label "Card" ;
+        rdfs:label "Property Card" ;
         rdfs:comment "A registration card from an archive" ;
         rdfs:subClassOf jdcrp:ArchivalRecord .
 
