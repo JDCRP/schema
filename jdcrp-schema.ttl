@@ -36,12 +36,12 @@ jdcrp:Card a rdfs:Class ;
 jdcrp:PropertyCard a rdfs:Class ;
         rdfs:label "Property Card" ;
         rdfs:comment "A card describing reposessed property at a collecting point" ;
-        rdfs:subClassOf jdcrp:Card .
+        rdfs:subClassOf jdcrp:ArchivalRecord .
 
 jdcrp:IndexCard a rdfs:Class ;
         rdfs:label "Index Card" ;
         rdfs:comment "A card describing property confiscated by the ERR" ;
-        rdfs:subClassOf jdcrp:Card .
+        rdfs:subClassOf jdcrp:ArchivalRecord .
 
 jdcrp:Photograph a rdfs:Class ;
         rdfs:label "Photograph" ;
