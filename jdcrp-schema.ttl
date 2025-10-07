@@ -29,9 +29,19 @@ jdcrp:List a rdfs:Class ;
         rdfs:subClassOf jdcrp:ArchivalRecord .
 
 jdcrp:Card a rdfs:Class ;
-        rdfs:label "Property Card" ;
+        rdfs:label "Card" ;
         rdfs:comment "A registration card from an archive" ;
         rdfs:subClassOf jdcrp:ArchivalRecord .
+
+jdcrp:PropertyCard a rdfs:Class ;
+        rdfs:label "Property Card" ;
+        rdfs:comment "A card describing reposessed property at a collecting point" ;
+        rdfs:subClassOf jdcrp:Card .
+
+jdcrp:IndexCard a rdfs:Class ;
+        rdfs:label "Index Card" ;
+        rdfs:comment "A card describing property confiscated by the ERR" ;
+        rdfs:subClassOf jdcrp:Card .
 
 jdcrp:Photograph a rdfs:Class ;
         rdfs:label "Photograph" ;
