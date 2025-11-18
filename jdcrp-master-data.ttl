@@ -7,7 +7,7 @@
 
 <https://data.jdcrp.org/place/wiesbadenccp> a sdo:Place ;
         jdcrp:name "Wiesbaden CCP" ;
-        jdcrp:seeAlso <https://explore.gnd.network/gnd/050373765> .
+        jdcrp:seeAlso <https://d-nb.info/gnd/050373765> .
 
 <https://data.jdcrp.org/dataset/marburgccp> a jdcrp:ArchivalSourceDataset ;
         jdcrp:name "Marburg CCP Property Cards (Bundesarchiv)" ;
@@ -15,7 +15,7 @@
 
 <https://data.jdcrp.org/place/marburgccp> a sdo:Place ;
         jdcrp:name "Marburg CCP" ;
-        jdcrp:seeAlso <https://explore.gnd.network/gnd/1135593000> .
+        jdcrp:seeAlso <https://d-nb.info/gnd/1135593000> .
 
 <https://data.jdcrp.org/dataset/errproject> a jdcrp:ArchivalSourceDataset ;
         jdcrp:name "Jeu de Paume (ERR) Database" ;
