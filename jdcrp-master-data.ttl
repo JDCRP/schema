@@ -1,4 +1,5 @@
 @prefix jdcrp: <https://schema.jdcrp.org/> .
+@prefix sdo: <https://schema.org/> .
 
 <https://data.jdcrp.org/dataset/wiesbadenccp> a jdcrp:ArchivalSourceDataset ;
         jdcrp:name "Wiesbaden CCP Property Cards (Bundesarchiv)" ;
