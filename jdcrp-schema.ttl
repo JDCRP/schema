@@ -46,7 +46,7 @@ jdcrp:IndexCard a rdfs:Class ;
 jdcrp:Photograph a rdfs:Class ;
         rdfs:label "Photograph" ;
         rdfs:comment "A photograph from an archive" ;
-        rdfs:subClassOf sdo:ArchivalRecord .
+        rdfs:subClassOf jdcrp:ArchivalRecord .
 
 jdcrp:Dataset a rdfs:Class ;
         rdfs:label "Data Source" ;
