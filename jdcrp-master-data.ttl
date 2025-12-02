@@ -1,5 +1,19 @@
 @prefix jdcrp: <https://schema.jdcrp.org/> .
 
+jdcrp:ArchivalRecord a rdfs:Class .
+
+jdcrp:PropertyCard a rdfs:Class ;
+        rdfs:subClassOf jdcrp:ArchivalRecord .
+
+jdcrp:IndexCard a rdfs:Class ;
+        rdfs:subClassOf jdcrp:ArchivalRecord .
+
+jdcrp:Photograph a rdfs:Class ;
+        rdfs:subClassOf jdcrp:ArchivalRecord .
+
+jdcrp:ExternalRecord a rdfs:Class ;
+        rdfs:subClassOf jdcrp:ArchivalRecord .
+
 <https://data.jdcrp.org/dataset/wiesbadenccp> a jdcrp:ArchivalSourceDataset ;
         jdcrp:name "Wiesbaden CCP Property Cards (Bundesarchiv)" ;
         jdcrp:description "After the liberation of Germany, the Allied Forces set up Collecting Points throughout the country to process looted objects with the aim of returning them to their original owners. One of the American Forces Collecting Points was established at the Landesmuseum in Wiesbaden. 6,673 property cards with a total of 12,578 pages are fully searchable in the Central Digital Platform. They provide a wealth of information on the looted objects themselves, but also on the whereabouts of the looted objects, the translocations, and the individuals and organisations involved in the looting and subsequent recovery of the objects."@en ;
