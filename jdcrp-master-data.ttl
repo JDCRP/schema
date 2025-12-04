@@ -18,6 +18,15 @@
         jdcrp:name "Marburg CCP" ;
         jdcrp:seeAlso <https://d-nb.info/gnd/1135593000> .
 
+<https://data.jdcrp.org/dataset/JRSO> a jdcrp:ArchivalSourceDataset ;
+        jdcrp:name "JRSO Property Cards (Bundesarchiv)" ;
+        jdcrp:description "The Jewish Restitution Successor Organization (JRSO), was established in 1948 with offices in Nuremberg. The goal of the JRSO was to institute proceedings in the American occupation zone for the restitution of heirless property of murdered persons and dissolved organizations that had been pursued on racial grounds under the Nazi regime. The assets obtained in this manner were distributed by the JRSO to Jewish institutions and organizations, primarily in the USA and Israel."@en ;
+        sdo:about <https://data.jdcrp.org/place/JRSO> .
+
+<https://data.jdcrp.org/place/JRSO> a sdo:Place ;
+        jdcrp:name "Nuermberg CCP" ;
+        jdcrp:seeAlso <https://d-nb.info/gnd/5204104-9> .
+
 <https://data.jdcrp.org/dataset/errproject> a jdcrp:ArchivalSourceDataset ;
         jdcrp:name "Jeu de Paume (ERR) Database" ;
         jdcrp:description "The central digital platform contains the registration cards of the main Nazi looting agency, the Einsatzstab Reichsleiter Rosenberg. More than 40,000 objects looted from Jews in German-occupied France and Belgium are searchable. The website of the original research project can be found at ERR_jeudepaume. Many more sources from various archives around the world are being prepared for implementation soon."@en .
