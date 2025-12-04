@@ -1,9 +1,11 @@
 @prefix jdcrp: <https://schema.jdcrp.org/> .
 @prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://data.jdcrp.org/dataset/wiesbadenccp> a jdcrp:ArchivalSourceDataset ;
         jdcrp:name "Wiesbaden CCP Property Cards (Bundesarchiv)" ;
         jdcrp:description "After the liberation of Germany, the Allied Forces set up Collecting Points throughout the country to process looted objects with the aim of returning them to their original owners. One of the American Forces Collecting Points was established at the Landesmuseum in Wiesbaden. 6,673 property cards with a total of 12,578 pages are fully searchable in the Central Digital Platform. They provide a wealth of information on the looted objects themselves, but also on the whereabouts of the looted objects, the translocations, and the individuals and organisations involved in the looting and subsequent recovery of the objects."@en ;
+        jdcrp:chronologicalOrder "10"^^xsd:integer ;
         sdo:about <https://data.jdcrp.org/place/wiesbadenccp> .
 
 <https://data.jdcrp.org/place/wiesbadenccp> a sdo:Place ;
@@ -12,6 +14,7 @@
 
 <https://data.jdcrp.org/dataset/marburgccp> a jdcrp:ArchivalSourceDataset ;
         jdcrp:name "Marburg CCP Property Cards (Bundesarchiv)" ;
+        jdcrp:chronologicalOrder "11"^^xsd:integer ;
         sdo:about <https://data.jdcrp.org/place/marburgccp> .
 
 <https://data.jdcrp.org/place/marburgccp> a sdo:Place ;
@@ -21,6 +24,7 @@
 <https://data.jdcrp.org/dataset/jrso> a jdcrp:ArchivalSourceDataset ;
         jdcrp:name "JRSO Property Cards (Bundesarchiv)" ;
         jdcrp:description "The Jewish Restitution Successor Organization (JRSO), was established in 1948 with offices in Nuremberg. The goal of the JRSO was to institute proceedings in the American occupation zone for the restitution of heirless property of murdered persons and dissolved organizations that had been pursued on racial grounds under the Nazi regime. The assets obtained in this manner were distributed by the JRSO to Jewish institutions and organizations, primarily in the USA and Israel."@en ;
+        jdcrp:chronologicalOrder "100"^^xsd:integer ;
         sdo:about <https://data.jdcrp.org/place/JRSO> .
 
 <https://data.jdcrp.org/place/jrso> a sdo:Place ;
@@ -29,11 +33,13 @@
 
 <https://data.jdcrp.org/dataset/errproject> a jdcrp:ArchivalSourceDataset ;
         jdcrp:name "Jeu de Paume (ERR) Database" ;
-        jdcrp:description "The central digital platform contains the registration cards of the main Nazi looting agency, the Einsatzstab Reichsleiter Rosenberg. More than 40,000 objects looted from Jews in German-occupied France and Belgium are searchable. The website of the original research project can be found at ERR_jeudepaume. Many more sources from various archives around the world are being prepared for implementation soon."@en .
+        jdcrp:description "The central digital platform contains the registration cards of the main Nazi looting agency, the Einsatzstab Reichsleiter Rosenberg. More than 40,000 objects looted from Jews in German-occupied France and Belgium are searchable. The website of the original research project can be found at ERR_jeudepaume. Many more sources from various archives around the world are being prepared for implementation soon."@en ;
+        jdcrp:chronologicalOrder "1"^^xsd:integer .
 
 <https://data.jdcrp.org/dataset/nara> a jdcrp:ArchivalSourceDataset ;
         jdcrp:name "Photographs of Objects and Activities at the Wiesbaden CCP (NARA)" ;
-        jdcrp:description "Photographs of Objects and Activities at the Wiesbaden CCP (NARA)" .
+        jdcrp:description "Photographs of Objects and Activities at the Wiesbaden CCP (NARA)" ;
+        jdcrp:chronologicalOrder "12"^^xsd:integer .
 
 <https://data.jdcrp.org/dataset/persecuted_jewish_artists> a jdcrp:ResearchProjectDataset ;
         jdcrp:name "JDCRP Persecuted Jewish Artists" ;
