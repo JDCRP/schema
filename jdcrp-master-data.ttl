@@ -18,12 +18,12 @@
         jdcrp:name "Marburg CCP" ;
         jdcrp:seeAlso <https://d-nb.info/gnd/1135593000> .
 
-<https://data.jdcrp.org/dataset/JRSO> a jdcrp:ArchivalSourceDataset ;
+<https://data.jdcrp.org/dataset/jrso> a jdcrp:ArchivalSourceDataset ;
         jdcrp:name "JRSO Property Cards (Bundesarchiv)" ;
         jdcrp:description "The Jewish Restitution Successor Organization (JRSO), was established in 1948 with offices in Nuremberg. The goal of the JRSO was to institute proceedings in the American occupation zone for the restitution of heirless property of murdered persons and dissolved organizations that had been pursued on racial grounds under the Nazi regime. The assets obtained in this manner were distributed by the JRSO to Jewish institutions and organizations, primarily in the USA and Israel."@en ;
         sdo:about <https://data.jdcrp.org/place/JRSO> .
 
-<https://data.jdcrp.org/place/JRSO> a sdo:Place ;
+<https://data.jdcrp.org/place/jrso> a sdo:Place ;
         jdcrp:name "Nuermberg CCP" ;
         jdcrp:seeAlso <https://d-nb.info/gnd/5204104-9> .
 
