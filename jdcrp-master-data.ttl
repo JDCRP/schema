@@ -45,7 +45,7 @@
         jdcrp:seeAlso <https://d-nb.info/gnd/3012000-7> .
 
 <https://data.jdcrp.org/dataset/nara> a jdcrp:ArchivalSourceDataset ;
-        jdcrp:name "Wiesbaden CCP" ;
+        jdcrp:name "Photographs Wiesbaden CCP" ;
         jdcrp:archivalSource "Photographs NARA";
         jdcrp:description "Photographs of Objects and Activities at the Wiesbaden CCP (NARA)" ;
         jdcrp:chronologicalOrder "12"^^xsd:integer .
