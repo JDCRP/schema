@@ -35,7 +35,7 @@
         jdcrp:seeAlso <https://d-nb.info/gnd/5204104-9> .
 
 <https://data.jdcrp.org/dataset/errproject> a jdcrp:ArchivalSourceDataset ;
-        jdcrp:name "ERR Jeu de Paume Records" ;
+        jdcrp:name "ERR Jeu de Paume" ;
         jdcrp:archivalSource "ERR Records NARA";
         jdcrp:description "The central digital platform contains the registration cards of the main Nazi looting agency, the Einsatzstab Reichsleiter Rosenberg. More than 40,000 objects looted from Jews in German-occupied France and Belgium are searchable. The website of the original research project can be found at ERR_jeudepaume. Many more sources from various archives around the world are being prepared for implementation soon."@en ;
         jdcrp:chronologicalOrder "1"^^xsd:integer .
