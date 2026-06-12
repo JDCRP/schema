@@ -16,7 +16,7 @@
 
 <https://data.jdcrp.org/dataset/marburgccp> a jdcrp:ArchivalSourceDataset ;
         jdcrp:name "Marburg CCP" ;
-        jdcrp:fullName "Marburg CCP Property Cards" ;
+        jdcrp:fullName "Property Cards Marburg CCP" ;
         jdcrp:archivalSource "Property Cards Bundesarchiv";
         jdcrp:chronologicalOrder "11"^^xsd:integer ;
         sdo:about <https://data.jdcrp.org/place/marburgccp> .
