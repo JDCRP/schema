@@ -4,7 +4,7 @@
 
 <https://data.jdcrp.org/dataset/wiesbadenccp> a jdcrp:ArchivalSourceDataset ;
         jdcrp:name "Wiesbaden CCP" ;
-        jdcrp:fullName "Property Cards Wiesbaden CCP" ;
+        jdcrp:fullName "Wiesbaden CCP Property Cards" ;
         jdcrp:archivalSource "Property Cards Bundesarchiv";
         jdcrp:description "After the liberation of Germany, the Allied Forces set up Collecting Points throughout the country to process looted objects with the aim of returning them to their original owners. One of the American Forces Collecting Points was established at the Landesmuseum in Wiesbaden. 6,673 property cards with a total of 12,578 pages are fully searchable in the Central Digital Platform. They provide a wealth of information on the looted objects themselves, but also on the whereabouts of the looted objects, the translocations, and the individuals and organisations involved in the looting and subsequent recovery of the objects."@en ;
         jdcrp:chronologicalOrder "10"^^xsd:integer ;
@@ -16,7 +16,7 @@
 
 <https://data.jdcrp.org/dataset/marburgccp> a jdcrp:ArchivalSourceDataset ;
         jdcrp:name "Marburg CCP" ;
-        jdcrp:fullName "Property Cards Marburg CCP" ;
+        jdcrp:fullName "Marburg CCP Property Cards" ;
         jdcrp:archivalSource "Property Cards Bundesarchiv";
         jdcrp:chronologicalOrder "11"^^xsd:integer ;
         sdo:about <https://data.jdcrp.org/place/marburgccp> .
@@ -27,7 +27,7 @@
 
 <https://data.jdcrp.org/dataset/jrso> a jdcrp:ArchivalSourceDataset ;
         jdcrp:name "Sent to JRSO" ;
-        jdcrp:fullName "Property Cards Sent to JRSO" ;
+        jdcrp:fullName "Sent to JRSO Property Cards" ;
         jdcrp:archivalSource "Property Cards  Bundesarchiv";
         jdcrp:description "The Jewish Restitution Successor Organization (JRSO), was established in 1948 with offices in Nuremberg. The goal of the JRSO was to institute proceedings in the American occupation zone for the restitution of heirless property of murdered persons and dissolved organizations that had been pursued on racial grounds under the Nazi regime. The assets obtained in this manner were distributed by the JRSO to Jewish institutions and organizations, primarily in the USA and Israel."@en ;
         jdcrp:chronologicalOrder "100"^^xsd:integer ;
