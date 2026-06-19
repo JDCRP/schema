@@ -26,8 +26,8 @@
         jdcrp:seeAlso <https://d-nb.info/gnd/1135593000> .
 
 <https://data.jdcrp.org/dataset/jrso> a jdcrp:ArchivalSourceDataset ;
-        jdcrp:name "Transferred to JRSO" ;
-        jdcrp:fullName "Transferred to JRSO Property Cards" ;
+        jdcrp:name "Transfer to JRSO" ;
+        jdcrp:fullName "Transfer to JRSO Property Cards" ;
         jdcrp:archivalSource "Property Cards  Bundesarchiv";
         jdcrp:description "The Jewish Restitution Successor Organization (JRSO), was established in 1948 with offices in Nuremberg. The goal of the JRSO was to institute proceedings in the American occupation zone for the restitution of heirless property of murdered persons and dissolved organizations that had been pursued on racial grounds under the Nazi regime. The assets obtained in this manner were distributed by the JRSO to Jewish institutions and organizations, primarily in the USA and Israel."@en ;
         jdcrp:chronologicalOrder "100"^^xsd:integer ;
