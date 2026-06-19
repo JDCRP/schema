@@ -7,7 +7,7 @@
         jdcrp:fullName "Wiesbaden CCP Property Cards" ;
         jdcrp:archivalSource "Property Cards Bundesarchiv";
         jdcrp:description "After the liberation of Germany, the Allied Forces set up Collecting Points throughout the country to process looted objects with the aim of returning them to their original owners. One of the American Forces Collecting Points was established at the Landesmuseum in Wiesbaden. 6,673 property cards with a total of 12,578 pages are fully searchable in the Central Digital Platform. They provide a wealth of information on the looted objects themselves, but also on the whereabouts of the looted objects, the translocations, and the individuals and organisations involved in the looting and subsequent recovery of the objects."@en ;
-        jdcrp:chronologicalOrder "10"^^xsd:integer ;
+        jdcrp:chronologicalOrder "2"^^xsd:integer ;
         sdo:about <https://data.jdcrp.org/place/wiesbadenccp> .
 
 <https://data.jdcrp.org/place/wiesbadenccp> a sdo:Place ;
@@ -18,7 +18,7 @@
         jdcrp:name "Marburg CCP" ;
         jdcrp:fullName "Marburg CCP Property Cards" ;
         jdcrp:archivalSource "Property Cards Bundesarchiv";
-        jdcrp:chronologicalOrder "11"^^xsd:integer ;
+        jdcrp:chronologicalOrder "4"^^xsd:integer ;
         sdo:about <https://data.jdcrp.org/place/marburgccp> .
 
 <https://data.jdcrp.org/place/marburgccp> a sdo:Place ;
@@ -30,7 +30,7 @@
         jdcrp:fullName "Transfer to JRSO Property Cards" ;
         jdcrp:archivalSource "Property Cards  Bundesarchiv";
         jdcrp:description "The Jewish Restitution Successor Organization (JRSO), was established in 1948 with offices in Nuremberg. The goal of the JRSO was to institute proceedings in the American occupation zone for the restitution of heirless property of murdered persons and dissolved organizations that had been pursued on racial grounds under the Nazi regime. The assets obtained in this manner were distributed by the JRSO to Jewish institutions and organizations, primarily in the USA and Israel."@en ;
-        jdcrp:chronologicalOrder "100"^^xsd:integer ;
+        jdcrp:chronologicalOrder "6"^^xsd:integer ;
         sdo:about <https://data.jdcrp.org/place/JRSO> .
 
 <https://data.jdcrp.org/place/jrso> a sdo:Place ;
@@ -53,7 +53,14 @@
         jdcrp:fullName "Wiesbaden CCP Photographs" ;
         jdcrp:archivalSource "Photographs NARA";
         jdcrp:description "Photographs of Objects and Activities at the Wiesbaden CCP (NARA)" ;
-        jdcrp:chronologicalOrder "12"^^xsd:integer .
+        jdcrp:chronologicalOrder "3"^^xsd:integer .
+
+<https://data.jdcrp.org/dataset/nara> a jdcrp:ArchivalSourceDataset ;
+        jdcrp:name "Marburg CCP Photographs" ;
+        jdcrp:fullName "Marburg CCP Photographs" ;
+        jdcrp:archivalSource "Photographs Bildarchiv Foto Marburg";
+        jdcrp:description "Photographs of Objects and Activities at the Marburg CCP, Bildarchiv Foto Marburg" ;
+        jdcrp:chronologicalOrder "5"^^xsd:integer .
 
 <https://data.jdcrp.org/dataset/persecuted_jewish_artists> a jdcrp:ResearchProjectDataset ;
         jdcrp:name "JDCRP Persecuted Jewish Artists" ;
