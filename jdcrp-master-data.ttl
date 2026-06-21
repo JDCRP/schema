@@ -40,7 +40,7 @@
         sdo:about <https://data.jdcrp.org/place/marburgccp> .
 
 <https://data.jdcrp.org/dataset/foto-marburg> a jdcrp:ArchivalSourceDataset ;
-        jdcrp:name "Marburg CCP" ;
+        jdcrp:name "Marburg CCP Photographs" ;
         jdcrp:fullName "Marburg CCP Photographs" ;
         jdcrp:archivalSource "Photographs Bildarchiv Foto Marburg";
         jdcrp:chronologicalOrder "5"^^xsd:integer ;
