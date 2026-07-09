@@ -74,7 +74,6 @@
         jdcrp:name "Munich Central Collecting Point" ;
         jdcrp:seeAlso <https://d-nb.info/1186388579> .
 
-
 <https://data.jdcrp.org/dataset/persecuted_jewish_artists> a jdcrp:ResearchProjectDataset ;
         jdcrp:name "JDCRP Persecuted Jewish Artists" ;
         jdcrp:description "The JDCRP prepared an initial list of visual artists that were persecuted by the Nazis throughout Europe. The initial list consists of 1.000 names. It is a work-in-progress project aiming to include many more names from many more countries. To find out more about the research project please visit the JDCRP´s website JDCRP_artist . To access the initial list please visit JDCRP_airtable. You can search for each artist´s name in the digital platform by entering their name into the search slot." .
