@@ -64,7 +64,7 @@
 
 <https://data.jdcrp.org/dataset/direct_restitution> a jdcrp:ArchivalSourceDataset ;
         jdcrp:name "US Military" ;
-        jdcrp:fullName "US Military Restitution Cards" ;
+        jdcrp:fullName "US Military Property Cards" ;
         jdcrp:archivalSource "Property Cards Bundesarchiv";
         jdcrp:description "Law 59 (Military Government Law No. 59) was a pivotal post-WWII legal framework established by the Western Allies (the U.S. and Great Britain) in 1947 to return assets seized by the Nazi regime to their rightful owners. It mandated the speedy restitution of tangible and intangible property stolen between January 30, 1933, and May 8, 1945."@en ;
         jdcrp:chronologicalOrder "7"^^xsd:integer ;
