@@ -38,7 +38,7 @@ jdcrp:PropertyCard a rdfs:Class ;
         rdfs:comment "A card describing reposessed property at a collecting point" ;
         rdfs:subClassOf jdcrp:ArchivalRecord .
 
-jdcrp:PropertyCard a rdfs:Class ;
+jdcrp:RestitutionCard a rdfs:Class ;
         rdfs:label "Restitution Card" ;
         rdfs:comment "A card describing restitution of property from a collecting point" ;
         rdfs:subClassOf jdcrp:ArchivalRecord .
