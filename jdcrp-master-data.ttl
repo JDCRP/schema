@@ -50,7 +50,7 @@
         jdcrp:name "Marburg Central Collecting Point" ;
         jdcrp:seeAlso <https://d-nb.info/gnd/1135593000> .
 
-<https://data.jdcrp.org/dataset/marburgccp> a jdcrp:ArchivalSourceDataset ;
+<https://data.jdcrp.org/dataset/munichccp> a jdcrp:ArchivalSourceDataset ;
         jdcrp:name "Munich CCP" ;
         jdcrp:fullName "Munich CCP Property Cards" ;
         jdcrp:archivalSource "Property Cards Bundesarchiv";
